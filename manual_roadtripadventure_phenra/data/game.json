@@ -1,0 +1,7 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "RoadTripAdventure",
+  "creator": "Phenra",
+  "filler_item_name": "500G",
+  "starting_items": []
+}

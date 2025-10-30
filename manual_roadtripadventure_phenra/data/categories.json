@@ -1,0 +1,39 @@
+{
+    "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.categories.schema.json",
+    "Stamp Progression Only": {
+        "hidden": true
+    },
+    "Garage Wallpaper": {
+        "hidden": true
+    },
+    "Garage Decoration": {
+        "hidden": true
+    },
+    "Body": {
+        "hidden": true
+    },
+    "Upgrade Set 2": {
+        "hidden": true
+    },
+    "Upgrade Set 3": {
+        "hidden": true
+    },
+    "Meter": {
+        "hidden": true
+    },
+    "Wheel": {
+        "hidden": true
+    },
+    "Horn": {
+        "hidden": true
+    },
+    "Combined": {
+        "hidden": true
+    },
+    "Challenge": {
+        "hidden": true
+    },
+    "Double-Up": {
+        "hidden": true
+    }
+}

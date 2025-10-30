@@ -1,0 +1,1070 @@
+[
+  {
+    "count": "11",
+    "name": "Progressive Tires",
+    "category": [
+      "Upgrades"
+    ],
+    "progression": true
+  },
+  {
+    "count": "10",
+    "name": "Progressive Engine",
+    "category": [
+      "Upgrades"
+    ],
+    "progression": true
+  },
+  {
+    "count": "4",
+    "name": "Progressive Chassis",
+    "category": [
+      "Upgrades"
+    ],
+    "progression": true
+  },
+  {
+    "count": "5",
+    "name": "Progressive Transmission",
+    "category": [
+      "Upgrades"
+    ],
+    "progression": true
+  },
+  {
+    "count": "3",
+    "name": "Progressive Steering",
+    "category": [
+      "Upgrades"
+    ],
+    "progression": true
+  },
+  {
+    "count": "3",
+    "name": "Progressive Brakes",
+    "category": [
+      "Upgrades"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Mesh Wheel",
+    "category": [
+      "Filler", "Wheel"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Spoke 1",
+    "category": [
+      "Filler", "Wheel"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Spoke 2",
+    "category": [
+      "Filler", "Wheel"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Spoke 3",
+    "category": [
+      "Filler", "Wheel"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Spoke 4",
+    "category": [
+      "Filler", "Wheel"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Spoke 5",
+    "category": [
+      "Filler", "Wheel"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Spoke 6",
+    "category": [
+      "Filler", "Wheel"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Spoke 7",
+    "category": [
+      "Filler", "Wheel"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Flush 1",
+    "category": [
+      "Filler", "Wheel"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Flush 2",
+    "category": [
+      "Filler", "Wheel"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Flush 3",
+    "category": [
+      "Filler", "Wheel"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Flush 4",
+    "category": [
+      "Filler", "Wheel"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Flush 5",
+    "category": [
+      "Filler", "Wheel"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Wing Set",
+    "category": [
+      "Important Parts"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Propeller",
+    "category": [
+      "Important Parts"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Water Ski",
+    "category": [
+      "Important Parts"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Police Light",
+    "category": [
+      "Filler"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Flight Wing",
+    "category": [
+      "Filler"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Billboard 1 - Coffee Shop",
+    "category": [
+      "Filler"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Billboard 2 - Noodle Shop",
+    "category": [
+      "Filler"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Billboard 3 - Cake Shop",
+    "category": [
+      "Filler"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Billboard 4 - Wool Shop",
+    "category": [
+      "Filler"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Billboard 5 - Coconut Shop",
+    "category": [
+      "Filler"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Sticker",
+    "category": [
+      "Filler"
+    ],
+    "filler": true
+  },
+	{
+		"count": 1,
+		"name": "Air Horn",
+		"category": [
+			"Filler",	"Horn"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Baby Horn",
+		"category": [
+			"Filler",	"Horn"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Bicycle Bell",
+		"category": [
+			"Filler",	"Horn"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Bus Horn",
+		"category": [
+			"Filler",	"Horn"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Chicken Horn",
+		"category": [
+			"Filler", "Horn"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Christmas Horn",
+		"category": [
+			"Filler",	"Horn"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Duck Horn",
+		"category": [
+			"Filler", "Horn"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Echo Air Horn",
+		"category": [
+			"Filler",	"Horn"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Fantasy Horn",
+		"category": [
+			"Filler",	"Horn"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Horse Horn",
+		"category": [
+			"Filler",	"Horn"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Space Horn",
+		"category": [
+			"Filler",	"Horn"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Train Horn",
+		"category": [
+			"Filler",	"Horn"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Trumpet Horn",
+		"category": [
+			"Filler",	"Horn"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Venus Horn",
+		"category": [
+			"Filler",	"Horn"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Cherry Meter",
+		"category": [
+			"Filler",	"Meter"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Chronometer",
+		"category": [
+			"Filler",	"Meter"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Digital Meter",
+		"category": [
+			"Filler",	"Meter"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Duck Meter",
+		"category": [
+			"Filler",	"Meter"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Life Meter",
+		"category": [
+			"Filler",	"Meter"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Love Sick Meter",
+		"category": [
+			"Filler",	"Meter"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Rainbow Meter",
+		"category": [
+			"Filler",	"Meter"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Space Meter",
+		"category": [
+			"Filler",	"Meter"
+		],
+		"filler": true
+	},
+	{
+		"count": 1,
+		"name": "Triangle Meter",
+		"category": [
+			"Filler",	"Meter"
+		],
+		"filler": true
+	},
+  {
+    "count": 1,
+    "name": "Jet Turbine",
+    "category": [
+      "Important Parts"
+    ],
+    "progression_skip_balancing": true
+  },
+  {
+    "count": 1,
+    "name": "Amethyst",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Black Opal",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Blue Sapphire",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Canary Recorder",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Coin Radar",
+    "category": [
+      "Important Collectibles"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Emerald",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Flower Seed",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Fluffy Mushroom",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Fountain Pen",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Hero Super Card",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Magazine",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Moonstone",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Package",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Papu Flower",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Peach",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Pretty Doll",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Relief",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Ruby",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Rice Ball",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Small Bottle",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Soccer Ball",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Topaz",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Uzumasa's Autograph",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Voucher",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Wallet",
+    "category": [
+      "Important Collectibles"
+    ],
+    "progression": true
+  },
+  {
+    "count": 3,
+    "name": "Progressive License",
+    "category": [
+      "Licenses"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Local Peach Wine",
+    "category": [
+      "Items Received",
+      "Stamp Progression Only",
+      "Garage Decoration"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Peach Doll",
+    "category": [
+      "Items Received",
+      "Stamp Progression Only",
+      "Garage Decoration"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Gold Ornament",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Policeman's Club",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Mini-Tower",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Toy Gun",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Model Train",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "M.Carton's Painting",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Flower Pattern",
+    "category": [
+      "Area Unlocks", "Garage Wallpaper"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Sky Pattern",
+    "category": [
+      "Area Unlocks", "Garage Wallpaper"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Christmas Tree",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Arctic Pattern",
+    "category": [
+      "Area Unlocks", "Garage Wallpaper"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Papaya Ukulele",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "UnbaboDoll",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "God's Rod",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Angel's Wings",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": "11",
+    "name": "Progressive Tires - Set 2",
+    "category": [
+      "Upgrades", "Upgrade Set 2"
+    ],
+    "useful": true
+  },
+  {
+    "count": "10",
+    "name": "Progressive Engine - Set 2",
+    "category": [
+      "Upgrades", "Upgrade Set 2"
+    ],
+    "useful": true
+  },
+  {
+    "count": "4",
+    "name": "Progressive Chassis - Set 2",
+    "category": [
+      "Upgrades", "Upgrade Set 2"
+    ],
+    "useful": true
+  },
+  {
+    "count": "5",
+    "name": "Progressive Transmission - Set 2",
+    "category": [
+      "Upgrades", "Upgrade Set 2"
+    ],
+    "useful": true
+  },
+  {
+    "count": "3",
+    "name": "Progressive Steering - Set 2",
+    "category": [
+      "Upgrades", "Upgrade Set 2"
+    ],
+    "useful": true
+  },
+  {
+    "count": "3",
+    "name": "Progressive Brakes - Set 2",
+    "category": [
+      "Upgrades", "Upgrade Set 2"
+    ],
+    "useful": true
+  },
+  {
+    "count": "11",
+    "name": "Progressive Tires - Set 3",
+    "category": [
+      "Upgrades", "Upgrade Set 3"
+    ],
+    "useful": true
+  },
+  {
+    "count": "10",
+    "name": "Progressive Engine - Set 3",
+    "category": [
+      "Upgrades", "Upgrade Set 3"
+    ],
+    "useful": true
+  },
+  {
+    "count": "4",
+    "name": "Progressive Chassis - Set 3",
+    "category": [
+      "Upgrades", "Upgrade Set 3"
+    ],
+    "useful": true
+  },
+  {
+    "count": "5",
+    "name": "Progressive Transmission - Set 3",
+    "category": [
+      "Upgrades", "Upgrade Set 3"
+    ],
+    "useful": true
+  },
+  {
+    "count": "3",
+    "name": "Progressive Steering - Set 3",
+    "category": [
+      "Upgrades", "Upgrade Set 3"
+    ],
+    "useful": true
+  },
+  {
+    "count": "3",
+    "name": "Progressive Brakes - Set 3",
+    "category": [
+      "Upgrades", "Upgrade Set 3"
+    ],
+    "useful": true
+  },
+  {
+    "count": 1,
+    "name": "Body Q003",
+    "category": [
+      "Items Received", "Body"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Body Q030",
+    "category": [
+      "Items Received", "Body"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Body Q034",
+    "category": [
+      "Items Received", "Body"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Body Q037",
+    "category": [
+      "Items Received", "Body"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Body Q080",
+    "category": [
+      "Items Received", "Body"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Body Q081",
+    "category": [
+      "Items Received", "Body"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Body Q082",
+    "category": [
+      "Items Received", "Body"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Body Q083",
+    "category": [
+      "Items Received", "Body"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Body Q084",
+    "category": [
+      "Items Received", "Body"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Body Q085",
+    "category": [
+      "Items Received", "Body"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Body Q086",
+    "category": [
+      "Items Received", "Body"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Body Q087",
+    "category": [
+      "Items Received", "Body"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Body Q089",
+    "category": [
+      "Items Received", "Body"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Body Q148",
+    "category": [
+      "Items Received", "Body"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Body Q149",
+    "category": [
+      "Items Received", "Body"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Body Q150",
+    "category": [
+      "Items Received", "Body"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "RS Magnum",
+    "category": [
+      "Items Received"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "HG Off-Road Tires",
+    "category": [
+      "Items Received"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Soccer Pattern",
+    "category": [
+      "Items Received", "Garage Wallpaper"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "UFO Pattern",
+    "category": [
+      "Items Received", "Garage Wallpaper"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Hide-Out Pattern",
+    "category": [
+      "Items Received", "Garage Wallpaper"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Room with a View!",
+    "category": [
+      "Items Received", "Garage Wallpaper"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Urban Pattern",
+    "category": [
+      "Items Received", "Garage Wallpaper"
+    ],
+    "filler": true
+  },
+  {
+    "count": 1,
+    "name": "Summer Pattern",
+    "category": [
+      "Items Received", "Garage Wallpaper"
+    ],
+    "filler": true
+  },
+  {
+    "count": "99",
+    "name": "Stamp",
+    "category": [
+      "Stamps"
+    ],
+    "progression_skip_balancing": true
+  }
+]

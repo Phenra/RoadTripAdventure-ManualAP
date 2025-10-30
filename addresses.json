@@ -1,0 +1,283 @@
+{
+  "progressiveUpgrades":{
+    "names":[
+      "Progressive License",
+      "Progressive Tires",
+      "Progressive Engine",
+      "Progressive Chassis",
+      "Progressive Transmission",
+      "Progressive Steering",
+      "Progressive Brakes",
+      "Progressive Tires - Set 2",
+      "Progressive Engine - Set 2",
+      "Progressive Chassis - Set 2",
+      "Progressive Transmission - Set 2",
+      "Progressive Steering - Set 2",
+      "Progressive Brakes - Set 2",
+      "Progressive Tires - Set 3",
+      "Progressive Engine - Set 3",
+      "Progressive Chassis - Set 3",
+      "Progressive Transmission - Set 3",
+      "Progressive Steering - Set 3",
+      "Progressive Brakes - Set 3"
+    ]
+  },
+  "money":{
+    "address": "0x0177FDB4"
+  },
+  "licenses":{
+    "address": "0x177FDB1",
+    "sizeInBytes": 4,
+    "values":{
+      "C License": 0,
+      "B License": 1,
+      "A License": 2,
+      "Super A License": 3
+    }
+  },
+  "collectibles":{
+    "address": "0x17804BC",
+    "sizeInBytes": 6,
+    "bitOffsets":{
+      "Flower Pattern": 1,
+      "Sky Pattern": 2,
+      "Soccer Pattern": 3,
+      "UFO Pattern": 4,
+      "Hide-out Pattern": 5,
+      "Room with a View!": 6,
+      "Urban Pattern": 7,
+      "Summer Pattern": 8,
+      "Arctic Pattern": 9,
+      "Local Peach Wine": 10,
+      "Peach Doll": 11,
+      "Gold Ornament": 12,
+      "Policeman's Club": 13,
+      "Mini-Tower": 14,
+      "Toy Gun": 15,
+      "M.Carton's Painting": 16,
+      "Model Train": 17,
+      "Christmas Tree": 18,
+      "UnbaboDoll": 19,
+      "Papaya Ukulele": 20,
+      "Angel's Wings": 21,
+      "God's Rod": 22,
+      "Wallet": 23,
+      "Voucher": 24,
+      "Hero Super Card": 25,
+      "Pretty Doll": 26,
+      "Relief": 27,
+      "Uzumasa's Autograph": 28,
+      "Rice Ball": 29,
+      "Canary Recorder": 30,
+      "Magazine": 31,
+      "Blue Sapphire": 32,
+      "Emerald": 33,
+      "Ruby": 34,
+      "Topaz": 35,
+      "Black Opal": 36,
+      "Moonstone": 37,
+      "Amethyst": 38,
+      "Soccer Ball": 39,
+      "Fountain Pen": 40,
+      "Flower Seed": 41,
+      "Papu Flower": 42,
+      "Fluffy Mushroom": 43,
+      "Small Bottle": 44,
+      "Coin Radar": 45,
+      "Package": 46,
+      "Peach": 47
+    }
+  },
+  "bodies":{
+    "address": "0x1780390",
+    "sizeInBytes": 19
+  },
+  "parts":{
+    "maxQuantity": 5,
+    "sizeInBytes": 4,
+    "tires":{
+      "inventoryAddress": "0x17803A4",
+      "shopAddress": "0x2DC56C",
+      "bitOffsets":{
+        "Normal Tires": 0,
+        "Sports Tires": 1,
+        "Semi-Racing Tires": 2,
+        "Racing Tires": 3,
+        "HG Racing Tires": 4,
+        "Wet Tires": 5,
+        "HG Wet Tires": 6,
+        "Off-Road Tires": 7,
+        "HG Off-Road Tires": 8,
+        "Studless Tires": 9,
+        "HG Studless Tires": 10,
+        "Big Tires": 11,
+        "Devil Tires": 12
+      }
+    },
+    "engines":{
+      "inventoryAddress": "0x17803B8",
+      "shopAddress": "0x2DC570",
+      "bitOffsets":{
+        "Normal Engine": 0,
+        "Panther": 1,
+        "Blue MAX": 2,
+        "Blue MAX v2": 3,
+        "MAD": 4,
+        "MAD v2": 5,
+        "Long MAD": 6,
+        "Black MAX": 7,
+        "RS Magnum": 8,
+        "Speed MAX": 9,
+        "Hyper MAX": 10,
+        "Devil Engine": 11
+      }
+    },
+    "chassis":{
+      "inventoryAddress": "0x17803CC",
+      "shopAddress": "0x2DC574",
+      "bitOffsets":{
+        "Normal Chassis": 0,
+        "Light Chassis": 1,
+        "Feather Chassis": 2,
+        "Phantom Chassis": 3,
+        "Hyper Chassis": 4
+      }
+    },
+    "transmissions":{
+      "inventoryAddress": "0x17803E0",
+      "shopAddress": "0x2DC578",
+      "bitOffsets":{
+        "Normal Transmission": 0,
+        "Sports Transmission": 1,
+        "Power Transmission": 2,
+        "Speed Transmission": 3,
+        "Wide Transmission": 4,
+        "Hyper Transmission": 5
+      }
+    },
+    "steering":{
+      "inventoryAddress": "0x17803F4",
+      "shopAddress": "0x2DC57C",
+      "bitOffsets":{
+        "Normal Steering": 0,
+        "Quick Steering": 1,
+        "X2 Quick Steering": 2,
+        "X3 Quick Steering": 3
+      }
+    },
+    "brakes":{
+      "inventoryAddress": "0x1780408",
+      "shopAddress": "0x2DC580",
+      "bitOffsets":{
+        "Normal Pad": 0,
+        "Soft Pad": 1,
+        "Hard Pad": 2,
+        "Metal Pad": 3
+      }
+    },
+    "wheels":{
+      "inventoryAddress": "0x178041C",
+      "shopAddress": "0x2DC584",
+      "bitOffsets":{
+        "Normal Wheels": 0,
+        "Mesh Wheels": 1,
+        "Spoke 1": 2,
+        "Spoke 2": 3,
+        "Flush 1": 4,
+        "Spoke 3": 5,
+        "Flush 2": 6,
+        "Spoke 4": 7,
+        "Spoke 5": 8,
+        "Spoke 6": 9,
+        "Flush 3": 10,
+        "Flush 4": 11,
+        "Flush 5": 12,
+        "Spoke 7": 13,
+        "Spoke 666": 14
+      }
+    },
+    "lights":{
+      "inventoryAddress": "0x1780430",
+      "shopAddress": "0x2DC588",
+      "bitOffsets":{
+        "Headlights": 0,
+        "Fog Lights": 1,
+        "Beam Lights": 2
+      }
+    },
+    "wingSet":{
+      "inventoryAddress": "0x1780444",
+      "shopAddress": "0x2DC58C",
+      "bitOffsets":{
+        "Wing Set": 1
+      }
+    },
+    "specialParts":{
+      "inventoryAddress": "0x1780458",
+      "shopAddress": "0x2DC590",
+      "bitOffsets":{
+        "Propeller": 1,
+        "Jet Turbine": 2
+      }
+    },
+    "options":{
+      "inventoryAddress": "0x178046C",
+      "shopAddress": "0x2DC594",
+      "bitOffsets":{
+        "Water Ski": 1,
+        "Flight Wing": 2,
+        "Police Light": 3,
+        "Billboard 1 - Coffee Shop": 4,
+        "Billboard 2 - Noodle Shop": 5,
+        "Billboard 3 - Cake Shop": 6,
+        "Billboard 4 - Wool Shop": 7,
+        "Billboard 5 - Coconut Shop": 8
+      }
+    },
+    "sticker":{
+      "inventoryAddress": "0x1780480",
+      "shopAddress": "0x2DC598",
+      "bitOffsets":{
+        "Sticker": 1
+      }
+    },
+    "horns":{
+      "inventoryAddress": "0x1780494",
+      "shopAddress": "0x2DC59C",
+      "bitOffsets":{
+        "Normal Horn": 0,
+        "Air Horn": 1,
+        "Echo Air Horn": 2,
+        "Bus Horn": 3,
+        "Bicycle Bell": 4,
+        "Venus Horn": 5,
+        "Chicken Horn": 6,
+        "Fantasy Horn": 7,
+        "Trumpet Horn": 8,
+        "Christmas Horn": 9,
+        "Duck Horn": 10,
+        "Space Horn": 11,
+        "Horse Horn": 12,
+        "Baby Horn": 13,
+        "Train Horn": 14
+      }
+    },
+    "meters":{
+      "inventoryAddress": "0x17804A8",
+      "shopAddress": "0x2DC5A0",
+      "bitOffsets":{
+        "Normal Meter": 0,
+        "Chronometer": 1,
+        "Rainbow Meter": 2,
+        "Space Meter": 3,
+        "Triangle Meter": 4,
+        "Love Sick Meter": 5,
+        "Life Meter": 6,
+        "Cherry Meter": 7,
+        "Duck Meter": 8,
+        "Devil Meter": 9,
+        "Digital Meter": 10
+      }
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+    "$schema": "https://raw.githubusercontent.com/ManualForArchipelago/Manual/main/schemas/Manual.options.schema.json",
+    "_comment": "Add a _ before an option name to comment it out and it wont be added to the apworld",
+    "core": {
+        "_goal":{
+            "_comment": [
+                "Using 'goal' as the name of an option let you override some of the generated goal parameters"
+            ],
+            "display_name": "The End Objective",
+            "description": "How to End your Randomized playthrough.",
+            "aliases": {"easiest": 0},
+            "hidden": false
+        },
+        "_death_link": {
+            "default": false
+        }
+    },
+    "user": {
+        "area_unlock_mode":{
+            "description": [
+                "To interact with anything in a town (enter houses, talk to cars, etc.), you must 'unlock' it first.",
+                "In 'Decorations' mode, you must obtain one of the garage decorations associated with that town.",
+                "   Every town has 2. (A couple of towns lacking garage decorations use garage wallpapers instead.)",
+                "In 'Stamps' mode, 100 stamp items are added into the pool. Every 5 stamps you get unlocks the next town."
+            ],
+            "type": "Choice",
+            "values": {
+                "Decorations": 0,
+                "Stamps": 1
+            },
+            "default": 0,
+            "allow_custom_value": false,
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ]
+        },
+        "remove_double_up_stamps":{
+            "description": [
+                "For roughly half of the stamps in the game, the player also receives a reward from an NPC immediately prior",
+                "   to receiving the stamp. Since NPC rewards and stamps are both loctions, this essentially means the player",
+                "   is rewarded twice.",
+                "If using Decorations mode, enable this to remove those stamps from the location pool. The stamp and NPC reward",
+                "   are combined into one location.",
+                "This cannot be enabled in 'Stamps' mode, as it would bring the number of locations well below the number of items."
+            ],
+            "type": "Toggle",
+            "default": true,
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ]
+        },
+        "prioritize_good_rewards_for_races":{
+            "description": [
+                "Increases the likelihood of receiving a Progressive or Useful item as a reward for a race.",
+                "   Before items are placed, a random number between 1 and 100 is rolled for each race.",
+                "   If the number is equal to or below the selected value, the item will be guaranteed to be Progression or Useful.",
+                "This provides more incentive to complete races, which are more skill-intensive and time-consuming than most stamps.",
+                "Since this is rolled for *each* race, it is not a guarantee that a certain percentage of races will have",
+                "   Progressive or Useful items - just that on average, they will."
+            ],
+            "type": "Range",
+            "range_start": 0,
+            "range_end": 100,
+            "default": 50,
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ]
+        },
+        "prioritize_good_rewards_for_minigames":{
+            "description": [
+                "Increases the likelihood of receiving a Progressive or Useful item as a reward for most minigames.",
+                "Same as the above, but for minigames. Several minigames are not included due to the lack of a",
+                "   meaningful challenge (notably Q's Rally, fishing, and the Figure 8 courses, since none of these",
+                "   have time limits)."
+            ],
+            "type": "Range",
+            "range_start": 0,
+            "range_end": 100,
+            "default": 25,
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ]
+        },
+        "additional_progressive_part_tracks":{
+            "description": [
+                "Add additional progressive item tracks to the item pool. Defaults to 2, one for each of your teammates.",
+                "These parts can be used to equip your teammates, but can also be used by you, or just sold for money",
+                "   at the Recycle Shop.",
+                "Setting to 0 is not recommended, as it makes finding part upgrades a bit rare.",
+                "However, for Stamps mode, leaving at default will require the removal of a large number of filler items.",
+                "   Set to 1 to remove only garage decorations and wallpapers from the item pool in order to make room.",
+                "   Set to 0 to retain all filler items - but be aware this will likely slow down progress."
+            ],
+            "type": "Choice",
+            "default": 2,
+            "allow_custom_value": false,
+            "values": {
+                "0": 0,
+                "1": 1,
+                "2": 2
+            },
+            "visibility": [
+                "simple_ui",
+                "complex_ui",
+                "template"
+            ]
+        }
+    }
+}

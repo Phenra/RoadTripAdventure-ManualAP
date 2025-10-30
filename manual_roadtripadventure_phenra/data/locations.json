@@ -1,0 +1,2619 @@
+[
+  {
+    "name": "Peach Raceway - Rank C",
+    "region": "Peach Town",
+    "category": [
+      "Races - C-Rank"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Ninja Temple Raceway - Rank C",
+    "region": "Fuji City",
+    "category": [
+      "Races - C-Rank"
+    ],
+    "requires": "|Progressive Engine:1| OR |Progressive Chassis:1| OR |Progressive Transmission:1| OR |Progressive Tires:2|"
+  },
+  {
+    "name": "Desert Raceway - Rank C",
+    "region": "Sandpolis",
+    "category": [
+      "Races - C-Rank"
+    ],
+    "requires": "|Progressive Engine:1| OR |Progressive Tires:1| OR (|Progressive Chassis:2| AND |Progressive Transmission:1| AND |Progressive Steering:1|)"
+  },
+  {
+    "name": "Miner 49er Raceway - Rank C",
+    "region": "Chestnut Canyon",
+    "category": [
+      "Races - C-Rank"
+    ],
+    "requires": "(|Progressive Tires:2| AND |Progressive Steering:1|) OR (|Progressive Engine:2| AND |Progressive Steering:1|)"
+  },
+  {
+    "name": "River Raceway - Rank C",
+    "region": "Mushroom Road",
+    "category": [
+      "Races - C-Rank"
+    ],
+    "requires": "(|Progressive Tires:2| AND |Progressive Steering:1|)"
+  },
+  {
+    "name": "Slick Track - Rank C",
+    "region": "Mushroom Road",
+    "category": [
+      "Races - C-Rank"
+    ],
+    "requires": "(|Progressive Engine:2| AND |Progressive Steering:1|) OR (|Progressive Tires:1| AND |Progressive Steering:1|) OR (|Progressive Tires:5|)"
+  },
+  {
+    "name": "Peach Raceway - Rank B",
+    "region": "Peach Town",
+    "category": [
+      "Races - B-Rank"
+    ],
+    "requires": "((|Progressive Tires:9| AND |Progressive Engine:3| AND |Progressive Chassis:1| AND |Progressive Transmission:1| AND |Progressive Steering:1| AND |Progressive Brakes:1|) OR (|Progressive Tires:4| AND |Progressive Engine:5| AND |Progressive Chassis:1| AND |Progressive Transmission:1| AND |Progressive Steering:2| AND |Progressive Brakes:1|) AND |Progressive License:1|)"
+  },
+  {
+    "name": "Temple Raceway - Rank B",
+    "region": "Fuji City",
+    "category": [
+      "Races - B-Rank"
+    ],
+    "requires": "((|Progressive Tires:1| AND |Progressive Engine:3| AND |Progressive Chassis:1| AND |Progressive Transmission:1| AND |Progressive Steering:2| AND |Progressive Brakes:1|) AND |Progressive License:1|)"
+  },
+  {
+    "name": "Desert Raceway - Rank B",
+    "region": "Sandpolis",
+    "category": [
+      "Races - B-Rank"
+    ],
+    "requires": "((|Progressive Tires:6| AND |Progressive Engine:4| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:1|) OR (|Progressive Tires:1| AND |Progressive Engine:6| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:1|) AND |Progressive License:1|)"
+  },
+  {
+    "name": "Night Glow Raceway - Rank B",
+    "region": "Sandpolis",
+    "category": [
+      "Races - B-Rank"
+    ],
+    "requires": "|Progressive License:1|"
+  },
+  {
+    "name": "Lava Run Raceway - Rank B",
+    "region": "Chestnut Canyon",
+    "category": [
+      "Races - B-Rank"
+    ],
+    "requires": "((|Progressive Tires:1| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:1|) AND |Progressive License:1|)"
+  },
+  {
+    "name": "Oval Raceway - Rank B",
+    "region": "Mushroom Road",
+    "category": [
+      "Races - B-Rank"
+    ],
+    "requires": "((|Progressive Tires:4| AND |Progressive Engine:6| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:1|) OR (|Progressive Tires:9| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:1|) AND |Progressive License:1|)"
+  },
+  {
+    "name": "Snow Mountain Raceway - Rank B",
+    "region": "White Mountain",
+    "category": [
+      "Races - B-Rank"
+    ],
+    "requires": "((|Progressive Tires:3| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:1|) AND |Progressive License:1|)"
+  },
+  {
+    "name": "Sunny Beach Raceway - Rank B",
+    "region": "Papaya Island",
+    "category": [
+      "Races - B-Rank"
+    ],
+    "requires": "((|Progressive Tires:2| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:1|) AND |Progressive License:1|)"
+  },
+  {
+    "name": "Lagoon Raceway - Rank B",
+    "region": "Papaya Island",
+    "category": [
+      "Races - B-Rank"
+    ],
+    "requires": "((|Propeller| AND |Progressive Tires:1| AND |Progressive Steering:2| AND |Progressive Brakes:1|) OR (|Progressive Tires:6| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:1|) AND |Progressive License:1|)"
+  },
+  {
+    "name": "Peach Raceway - Rank A",
+    "region": "Peach Town",
+    "category": [
+      "Races - A-Rank"
+    ],
+    "requires": "((|Progressive Tires:9| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:2|) AND |Progressive License:2|)"
+  },
+  {
+    "region": "Fuji City",
+    "name": "Temple Raceway - Rank A",
+    "category": [
+      "Races - A-Rank"
+    ],
+    "requires": "((|Progressive Tires:1| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:2|) AND |Progressive License:2|)"
+  },
+  {
+    "region": "Sandpolis",
+    "name": "Night Glow Raceway - Rank A",
+    "category": [
+      "Races - A-Rank"
+    ],
+    "requires": "((|Progressive Tires:2| AND |Progressive Engine:6| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:2|) AND |Progressive License:2|)"
+  },
+  {
+    "region": "Chestnut Canyon",
+    "name": "Miner 49er Raceway - Rank A",
+    "category": [
+      "Races - A-Rank"
+    ],
+    "requires": "((|Progressive Tires:6| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:2|) AND |Progressive License:2|)"
+  },
+  {
+    "region": "Chestnut Canyon",
+    "name": "Lava Run Raceway - Rank A",
+    "category": [
+      "Races - A-Rank"
+    ],
+    "requires": "((|Progressive Tires:6| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:2|) OR (|Progressive Tires:1| AND |Progressive Engine:7| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:2|) AND |Progressive License:2|)"
+  },
+  {
+    "region": "Mushroom Road",
+    "name": "Slick Track - Rank A",
+    "category": [
+      "Races - A-Rank"
+    ],
+    "requires": "((|Progressive Tires:5| AND |Progressive Engine:6| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:2|) AND |Progressive License:2|)"
+  },
+  {
+    "region": "White Mountain",
+    "name": "Snow Mountain Raceway - Rank A",
+    "category": [
+      "Races - A-Rank"
+    ],
+    "requires": "((|Progressive Tires:3| AND |Progressive Engine:6| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:2|) AND |Progressive License:2|)"
+  },
+  {
+    "region": "Papaya Island",
+    "name": "Sunny Beach Raceway - Rank A",
+    "category": [
+      "Races - A-Rank"
+    ],
+    "requires": "((|Progressive Tires:2| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:2|) AND |Progressive License:2|)"
+  },
+  {
+    "region": "Papaya Island",
+    "name": "Lagoon Raceway - Rank A",
+    "category": [
+      "Races - A-Rank"
+    ],
+    "requires": "((|Propeller| AND |Progressive Tires:1| AND |Progressive Steering:2| AND |Progressive Brakes:1|) OR (|Progressive Tires:6| AND |Progressive Engine:5| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Steering:2| AND |Progressive Brakes:1|) AND |Progressive License:2|)"
+  },
+  {
+    "name": "Endurance Run",
+    "region": "My City",
+    "victory": false,
+    "category": [
+      "Races - Other"
+    ],
+    "requires": "((|Progressive Tires:4| AND |Progressive Engine:5| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Steering:2| AND |Progressive Brakes:1|) AND |Progressive License:2|)"
+  },
+  {
+    "name": "Tin Raceway",
+    "region": "Cloud Hill",
+    "category": [
+      "Races - Other"
+    ],
+    "requires": "((|Progressive Tires:4| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:1|) AND |Progressive License:2|)"
+  },
+  {
+    "name": "Stamp 1",
+    "region": "Peach Town",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 2 / Local Peach Wine",
+    "region": "Peach Town",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 2",
+    "region": "Peach Town",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 3 / Peach Doll",
+    "region": "Peach Town",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 3",
+    "region": "Peach Town",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 4",
+    "region": "Peach Town",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 5",
+    "region": "Peach Town",
+    "category": [
+      "Stamps"
+    ],
+    "requires": "|Wallet|"
+  },
+  {
+    "name": "Stamp 6",
+    "region": "Peach Town",
+    "category": [
+      "Stamps", "Challenge"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 7 / Body Q150",
+    "region": "Peach Town",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": "|Magazine|"
+  },
+  {
+    "name": "Stamp 7",
+    "region": "Peach Town",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": "|Magazine|"
+  },
+  {
+    "name": "Stamp 8",
+    "region": "Peach Town",
+    "category": [
+      "Stamps"
+    ],
+    "requires": "|Peach|"
+  },
+  {
+    "name": "Stamp 9 / Body Q087",
+    "region": "My City",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": "|Topaz| AND |Ruby| AND |Blue Sapphire| AND |Moonstone| AND |Emerald| AND |Amethyst| AND |Black Opal|"
+  },
+  {
+    "name": "Stamp 9",
+    "region": "My City",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": "|Topaz| AND |Ruby| AND |Blue Sapphire| AND |Moonstone| AND |Emerald| AND |Amethyst| AND |Black Opal|"
+  },
+  {
+    "name": "Stamp 10",
+    "region": "Fuji City",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 11 / Gold Ornament",
+    "region": "Fuji City",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 11",
+    "region": "Fuji City",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 12 / Policeman's Club",
+    "region": "Fuji City",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 12",
+    "region": "Fuji City",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 13",
+    "region": "Fuji City",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 14",
+    "region": "Fuji City",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 14 / Cherry Meter",
+    "region": "Fuji City",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 15",
+    "region": "Fuji City",
+    "category": [
+      "Stamps", "Challenge"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 16",
+    "region": "Fuji City",
+    "category": [
+      "Stamps", "Challenge"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 17 / Love Sick Meter",
+    "region": "Fuji City",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 17",
+    "region": "Fuji City",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 18",
+    "region": "Fuji City",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 19 / Trumpet Horn",
+    "region": "Fuji City",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 19",
+    "region": "Fuji City",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 20 / Room with a View",
+    "region": "Fuji City",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 20",
+    "region": "Fuji City",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 21 / Urban Pattern",
+    "region": "Fuji City",
+    "category": [
+      "Stamps", "Combined", "Challenge"
+    ],
+    "requires": "(|Progressive Engine:5| AND |Progressive Tires:4| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:1|) OR (|Progressive Engine:6| AND |Progressive Tires:2| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Steering:2| AND |Progressive Brakes:1|)"
+  },
+  {
+    "name": "Stamp 21",
+    "region": "Fuji City",
+    "category": [
+      "Stamps", "Double-Up", "Challenge"
+    ],
+    "requires": "(|Progressive Engine:5| AND |Progressive Tires:4| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:1|) OR (|Progressive Engine:6| AND |Progressive Tires:2| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Steering:2| AND |Progressive Brakes:1|)"
+  },
+  {
+    "name": "Stamp 22",
+    "region": "Fuji City",
+    "category": [
+      "Stamps", "Challenge"
+    ],
+    "requires": "(|Progressive Engine:5| AND |Progressive Tires:4| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:1|) OR (|Progressive Engine:6| AND |Progressive Tires:2| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Steering:2| AND |Progressive Brakes:1|)"
+  },
+  {
+    "name": "Stamp 23",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 24 / Mini-Tower",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 24",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 25 / Toy Gun",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 25",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 26",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 27",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps", "Challenge"
+    ],
+    "requires": "|Progressive Tires:9| AND ((|Progressive Engine:6| AND |Progressive Chassis:3|) OR (|Progressive Engine:7| AND |Progressive Chassis:2|) OR (|Progressive Engine:8| AND |Progressive Chassis:1| AND |Progressive Transmission:1|))"
+  },
+  {
+    "name": "Stamp 28",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps", "Challenge"
+    ],
+    "requires": "|Progressive Engine:9| AND |Progressive Tires:9| AND |Progressive Chassis:4| AND |Progressive Transmission:5|"
+  },
+  {
+    "name": "Stamp 29",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 30",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 30 / Hide-out Pattern",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 31",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps"
+    ],
+    "requires": "|Soccer Ball|"
+  },
+  {
+    "name": "Stamp 32",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 33",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 34",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 35",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 36",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 37",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 38 / Soccer Pattern",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps", "Combined", "Challenge"
+    ],
+    "requires": "|Progressive Tires:1| AND |Progressive Steering:1|"
+  },
+  {
+    "name": "Stamp 38",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps", "Double-Up", "Challenge"
+    ],
+    "requires": "|Progressive Tires:1| AND |Progressive Steering:1|"
+  },
+  {
+    "name": "Stamp 39 / Chicken Horn",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": "|Fountain Pen|"
+  },
+  {
+    "name": "Stamp 39",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": "|Fountain Pen|"
+  },
+  {
+    "name": "Stamp 40",
+    "region": "My City",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 41 / Flower Pattern",
+    "region": "Peach Town",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": "|Flower Seed|"
+  },
+  {
+    "name": "Stamp 41",
+    "region": "Peach Town",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": "|Flower Seed|"
+  },
+  {
+    "name": "Stamp 42 / Body Q030",
+    "region": "Fuji City",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 42",
+    "region": "Fuji City",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 43",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 44 / Space Meter",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps", "Combined", "Challenge"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 44",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps", "Double-Up", "Challenge"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 45",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 46 / Coine Reward 10 (Hyper MAX)",
+    "region": "7 cities access",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 46",
+    "region": "7 cities access",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 47 / RS Magnum",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps", "Combined", "Challenge"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 47",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps", "Double-Up", "Challenge"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 48 / Body Q089",
+    "region": "My City",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": "|Progressive Engine:5| AND |Progressive Tires:2| AND |Progressive Chassis:1| AND |Progressive Transmission:1| AND |Progressive Steering:1|"
+  },
+  {
+    "name": "Stamp 48",
+    "region": "My City",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": "|Progressive Engine:5| AND |Progressive Tires:2| AND |Progressive Chassis:1| AND |Progressive Transmission:1| AND |Progressive Steering:1|"
+  },
+  {
+    "name": "Stamp 49",
+    "region": "My City",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 50",
+    "region": "Papaya Island",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 51",
+    "region": "Papaya Island",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 52",
+    "region": "Chestnut Canyon",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 53 / M.Carton's Painting",
+    "region": "Chestnut Canyon",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 53",
+    "region": "Chestnut Canyon",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 54 / Model Train",
+    "region": "Chestnut Canyon",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 54",
+    "region": "Chestnut Canyon",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 55",
+    "region": "Chestnut Canyon",
+    "category": [
+      "Stamps", "Challenge"
+    ],
+    "requires": "|Progressive Steering:1|"
+  },
+  {
+    "name": "Stamp 56",
+    "region": "Chestnut Canyon",
+    "category": [
+      "Stamps", "Challenge"
+    ],
+    "requires": "|Progressive Tires:9| AND |Progressive Engine:8| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Steering:2| AND |Progressive Brakes:2|"
+  },
+  {
+    "name": "Stamp 57",
+    "region": "Chestnut Canyon",
+    "category": [
+      "Stamps", "Challenge"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 58",
+    "region": "Chestnut Canyon",
+    "category": [
+      "Stamps", "Challenge"
+    ],
+    "requires": "|Progressive Steering:1|"
+  },
+  {
+    "name": "Stamp 59 / Baby Horn",
+    "region": "Chestnut Canyon",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 59",
+    "region": "Chestnut Canyon",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 60",
+    "region": "White Mountain",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 61 / Christmas Tree",
+    "region": "White Mountain",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 61",
+    "region": "White Mountain",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 62 / Arctic Pattern",
+    "region": "White Mountain",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 62",
+    "region": "White Mountain",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 63 / Body Q037",
+    "region": "White Mountain",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 63",
+    "region": "White Mountain",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 64 / Flower Seed",
+    "region": "White Mountain",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": "|Papu Flower|"
+  },
+  {
+    "name": "Stamp 64",
+    "region": "White Mountain",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": "|Papu Flower|"
+  },
+  {
+    "name": "Stamp 65",
+    "region": "Peach Town",
+    "category": [
+      "Stamps"
+    ],
+    "requires": "|Package|"
+  },
+  {
+    "name": "Stamp 66",
+    "region": "White Mountain",
+    "category": [
+      "Stamps", "Challenge"
+    ],
+    "requires": "|Jet Turbine|"
+  },
+  {
+    "name": "Stamp 67 / Christmas Horn",
+    "region": "White Mountain",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 67",
+    "region": "White Mountain",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 68 / Coin Radar",
+    "region": "White Mountain",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 68",
+    "region": "White Mountain",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 69",
+    "region": "White Mountain",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 70",
+    "region": "White Mountain",
+    "category": [
+      "Stamps", "Challenge"
+    ],
+    "requires": "|Progressive Chassis:1|"
+  },
+  {
+    "name": "Stamp 71 / Body Q082",
+    "region": "White Mountain to Sandpolis Delivery",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 71",
+    "region": "White Mountain to Sandpolis Delivery",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 72",
+    "region": "Papaya Island",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 73 / UnbaboDoll",
+    "region": "Papaya Island",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 73",
+    "region": "Papaya Island",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 74 / Papaya Ukulele",
+    "region": "Papaya Island",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 74",
+    "region": "Papaya Island",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 75",
+    "region": "Papaya Island",
+    "category": [
+      "Stamps", "Challenge"
+    ],
+    "requires": "|Progressive Tires:1| AND |Jet Turbine|"
+  },
+  {
+    "name": "Stamp 76",
+    "region": "Papaya Island",
+    "category": [
+      "Stamps", "Challenge"
+    ],
+    "requires": "|Progressive Tires:1| AND |Jet Turbine|"
+  },
+  {
+    "name": "Stamp 77",
+    "region": "Papaya Island",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 78 / Summer Pattern",
+    "region": "Papaya Island",
+    "category": [
+      "Stamps", "Combined", "Challenge"
+    ],
+    "requires": "|Jet Turbine| OR (|Progressive Tires:6| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2|) OR (|Progressive Tires:1| AND |Progressive Engine:7| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2|)"
+  },
+  {
+    "name": "Stamp 78",
+    "region": "Papaya Island",
+    "category": [
+      "Stamps", "Double-Up", "Challenge"
+    ],
+    "requires": "|Jet Turbine| OR (|Progressive Tires:6| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2|) OR (|Progressive Tires:1| AND |Progressive Engine:7| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2|)"
+  },
+  {
+    "name": "Stamp 79",
+    "region": "Papaya Island",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 80",
+    "region": "Mushroom Road to Papaya Island Delivery",
+    "category": [
+      "Stamps"
+    ],
+    "requires": "|Fluffy Mushroom| AND |Uzumasa's Autograph|"
+  },
+  {
+    "name": "Stamp 81 / Jet Turbine",
+    "region": "Papaya Island",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 81",
+    "region": "Papaya Island",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 82",
+    "region": "Papaya Island",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 83",
+    "region": "Papaya Island",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 84",
+    "region": "Papaya Island",
+    "category": [
+      "Stamps"
+    ],
+    "requires": "|Small Bottle|"
+  },
+  {
+    "name": "Stamp 85",
+    "region": "Cloud Hill",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 86 / Angel's Wings",
+    "region": "Cloud Hill",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 86",
+    "region": "Cloud Hill",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 87 / God's Rod",
+    "region": "Cloud Hill",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 87",
+    "region": "Cloud Hill",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 88 / Sky Pattern",
+    "region": "Cloud Hill",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": "(|Progressive Tires:9| AND |Progressive Engine:7| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Steering:2| AND |Progressive Brakes:2|) OR (|Jet Turbine| AND |Progressive Tires:4| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:2|)"
+  },
+  {
+    "name": "Stamp 88",
+    "region": "Cloud Hill",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": "(|Progressive Tires:9| AND |Progressive Engine:7| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Steering:2| AND |Progressive Brakes:2|) OR (|Jet Turbine| AND |Progressive Tires:4| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:2|)"
+  },
+  {
+    "name": "Stamp 89 / Body Q083 (Duck Quiz 3)",
+    "region": "Cloud Hill",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 89",
+    "region": "Cloud Hill",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 90 / Rainbow Meter",
+    "region": "Cloud Hill",
+    "category": [
+      "Stamps", "Combined", "Challenge"
+    ],
+    "requires": "|Progressive Tires:11| AND |Progressive Engine:8| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Brakes:3| AND |Jet Turbine| AND |Wing Set|"
+  },
+  {
+    "name": "Stamp 90",
+    "region": "Cloud Hill",
+    "category": [
+      "Stamps", "Double-Up", "Challenge"
+    ],
+    "requires": "|Progressive Tires:11| AND |Progressive Engine:8| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Brakes:3| AND |Jet Turbine| AND |Wing Set|"
+  },
+  {
+    "name": "Stamp 91",
+    "region": "Mushroom Road",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 92 / Venus Horn",
+    "region": "Mushroom Road",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 92",
+    "region": "Mushroom Road",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 93",
+    "region": "Mushroom Road",
+    "category": [
+      "Stamps"
+    ],
+    "requires": "|Jet Turbine|"
+  },
+  {
+    "name": "Stamp 94",
+    "region": "Mushroom Road",
+    "category": [
+      "Stamps"
+    ],
+    "requires": "|Jet Turbine|"
+  },
+  {
+    "name": "Stamp 95",
+    "region": "My City",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 96",
+    "region": "Cloud Hill",
+    "category": [
+      "Stamps"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 97 / Fantasy Horn",
+    "region": "Peach Town",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 97",
+    "region": "Peach Town",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 98 / Body Q003",
+    "region": "White Mountain",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 98",
+    "region": "White Mountain",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 99 / UFO Pattern",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps", "Combined"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 99",
+    "region": "Sandpolis",
+    "category": [
+      "Stamps", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Stamp 100",
+    "region": "Cloud Hill",
+    "victory": true,
+    "category": [
+      "Victory Condition"
+    ],
+    "requires": "(|Jet Turbine| AND |Progressive Tires:9| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:2|) OR (|Progressive Tires:11| AND |Progressive Engine:7| AND |Progressive Chassis:4| AND |Progressive Transmission:5| AND |Progressive Steering:3| AND |Progressive Brakes:3|)",
+    "place_item_category": [
+      "Filler"
+    ]
+  },
+  {
+    "name": "Amethyst",
+    "region": "White Mountain",
+    "category": [
+      "Overworld Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Black Opal",
+    "region": "Papaya Island",
+    "category": [
+      "Overworld Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Blue Sapphire",
+    "region": "Sandpolis",
+    "category": [
+      "Overworld Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Emerald",
+    "region": "White Mountain",
+    "category": [
+      "Overworld Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Fountain Pen",
+    "region": "Sandpolis",
+    "category": [
+      "Overworld Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Fluffy Mushroom",
+    "region": "Mushroom Road",
+    "category": [
+      "Overworld Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Moonstone",
+    "region": "Mushroom Road",
+    "category": [
+      "Overworld Items"
+    ],
+    "requires": "|Water Ski| AND (|Propeller| OR |Jet Turbine|)"
+  },
+  {
+    "name": "Papu Flower",
+    "region": "Papaya Island",
+    "category": [
+      "Overworld Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Peach",
+    "region": "Peach Town",
+    "category": [
+      "Overworld Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Ruby",
+    "region": "Sandpolis",
+    "category": [
+      "Overworld Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Small Bottle",
+    "region": "Papaya Island",
+    "category": [
+      "Overworld Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Topaz",
+    "region": "Fuji City",
+    "category": [
+      "Overworld Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Wallet",
+    "region": "Peach Town",
+    "category": [
+      "Overworld Items"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Billboard - Coffee Shop",
+    "region": "Peach Town",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Billboard - Noodle Shop",
+    "region": "Fuji City",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Billboard - Cake Shop",
+    "region": "Sandpolis",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Billboard - Wool Shop",
+    "region": "White Mountain",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Billboard - Coconut Shop",
+    "region": "Papaya Island",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Coine Reward 1 (Body Q086)",
+    "region": "My City",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Coine Reward 2 (Body Q080)",
+    "region": "2 cities access",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Coine Reward 3 (Body Q081)",
+    "region": "3 cities access",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Coine Reward 4 (Body Q084)",
+    "region": "4 cities access",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Coine Reward 5 (Big Tires)",
+    "region": "5 cities access",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Coine Reward 6 (X3 Quick Steering)",
+    "region": "6 cities access",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Coine Reward 7 (Hyper Transmission)",
+    "region": "7 cities access",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Coine Reward 8 (Hyper Chassis)",
+    "region": "7 cities access",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Coine Reward 9 (Metal Pad)",
+    "region": "7 cities access",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Coine Reward 10 (Hyper MAX)",
+    "region": "7 cities access",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Trade Quest 1 (Hero Super Card)",
+    "region": "Peach Town",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Trade Quest 2 (Pretty Doll)",
+    "region": "Sandpolis",
+    "category": [
+      "Items Received"
+    ],
+    "requires": "|Hero Super Card|"
+  },
+  {
+    "name": "Trade Quest 3 (Relief)",
+    "region": "Chestnut Canyon",
+    "category": [
+      "Items Received"
+    ],
+    "requires": "|Pretty Doll|"
+  },
+  {
+    "name": "Trade Quest 4 (Uzumasa's Autograph)",
+    "region": "Fuji City",
+    "category": [
+      "Items Received"
+    ],
+    "requires": "|Relief|"
+  },
+  {
+    "name": "Trade Quest 5 (Rice Ball)",
+    "region": "White Mountain",
+    "category": [
+      "Items Received"
+    ],
+    "requires": "|Uzumasa's Autograph|"
+  },
+  {
+    "name": "Trade Quest 6 (Canary Recorder)",
+    "region": "Cloud Hill",
+    "category": [
+      "Items Received"
+    ],
+    "requires": "|Rice Ball|"
+  },
+  {
+    "name": "Trade Quest 7 (Magazine)",
+    "region": "Papaya Island",
+    "category": [
+      "Items Received"
+    ],
+    "requires": "|Canary Recorder|"
+  },
+  {
+    "name": "Angel's Wings",
+    "region": "Cloud Hill",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Arctic Pattern",
+    "region": "White Mountain",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Baby Horn",
+    "region": "Chestnut Canyon",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Body Q003",
+    "region": "White Mountain",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Body Q030",
+    "region": "Fuji City",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Body Q034",
+    "region": "Peach Town",
+    "category": [
+      "Items Received"
+    ],
+    "requires": "|Package|"
+  },
+  {
+    "name": "Body Q037",
+    "region": "White Mountain",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Body Q082",
+    "region": "White Mountain to Sandpolis Delivery",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Body Q083",
+    "region": "Cloud Hill",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Body Q085",
+    "region": "Sandpolis",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Body Q087",
+    "region": "My City",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": "|Topaz| AND |Ruby| AND |Blue Sapphire| AND |Moonstone| AND |Emerald| AND |Amethyst| AND |Black Opal|"
+  },
+  {
+    "name": "Body Q089",
+    "region": "My City",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": "|Progressive Engine:5| AND |Progressive Tires:2| AND |Progressive Chassis:1| AND |Progressive Transmission:1| AND |Progressive Steering:1|"
+  },
+  {
+    "name": "Body Q150",
+    "region": "Peach Town",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": "|Magazine|"
+  },
+  {
+    "name": "Cherry Meter",
+    "region": "Fuji City",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Chicken Horn",
+    "region": "Sandpolis",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": "|Fountain Pen|"
+  },
+  {
+    "name": "Christmas Horn",
+    "region": "White Mountain",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Christmas Tree",
+    "region": "White Mountain",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Coin Radar",
+    "region": "White Mountain",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Duck Meter (Duck Quiz 1)",
+    "region": "Cloud Hill",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Duck Horn (Duck Quiz 2)",
+    "region": "Cloud Hill",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Fantasy Horn",
+    "region": "Peach Town",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Flower Pattern",
+    "region": "Peach Town",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": "|Flower Seed|"
+  },
+  {
+    "name": "Flower Seed",
+    "region": "White Mountain",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": "|Papu Flower|"
+  },
+  {
+    "name": "God's Rod",
+    "region": "Cloud Hill",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Gold Ornament",
+    "region": "Fuji City",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Hide-out Pattern",
+    "region": "Sandpolis",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Jet Turbine",
+    "region": "Papaya Island",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Local Peach Wine",
+    "region": "Peach Town",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Love Sick Meter",
+    "region": "Fuji City",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "M.Carton's Painting",
+    "region": "Chestnut Canyon",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Mini-Tower",
+    "region": "Sandpolis",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Model Train",
+    "region": "Chestnut Canyon",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Package",
+    "region": "White Mountain",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Papaya Ukulele",
+    "region": "Papaya Island",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Peach Doll",
+    "region": "Peach Town",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Policeman's Club",
+    "region": "Fuji City",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Police Light",
+    "region": "Peach Town",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Propeller",
+    "region": "White Mountain",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "RS Magnum",
+    "region": "Sandpolis",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Rainbow Meter",
+    "region": "Cloud Hill",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": "|Progressive Tires:11| AND |Progressive Engine:8| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Brakes:3| AND |Jet Turbine| AND |Wing Set|"
+  },
+  {
+    "name": "Room with a View",
+    "region": "Fuji City",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Sky Pattern",
+    "region": "Cloud Hill",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": "(|Progressive Tires:9| AND |Progressive Engine:7| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Steering:2| AND |Progressive Brakes:2|) OR (|Jet Turbine| AND |Progressive Tires:4| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:2|)"
+  },
+  {
+    "name": "Soccer Ball",
+    "region": "Sandpolis",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Soccer Pattern",
+    "region": "Sandpolis",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": "|Progressive Tires:1| AND |Progressive Steering:1|"
+  },
+  {
+    "name": "Space Meter",
+    "region": "Sandpolis",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Summer Pattern",
+    "region": "Papaya Island",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": "|Jet Turbine| OR (|Progressive Tires:6| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2|) OR (|Progressive Tires:1| AND |Progressive Engine:7| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2|)"
+  },
+  {
+    "name": "Toy Gun",
+    "region": "Sandpolis",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Trumpet Horn",
+    "region": "Fuji City",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "UFO Pattern",
+    "region": "Sandpolis",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "UnbaboDoll",
+    "region": "Papaya Island",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Urban Pattern",
+    "region": "Fuji City",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": "(|Progressive Engine:5| AND |Progressive Tires:4| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:1|) OR (|Progressive Engine:6| AND |Progressive Tires:2| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Steering:2| AND |Progressive Brakes:1|)"
+  },
+  {
+    "name": "Venus Horn",
+    "region": "Mushroom Road",
+    "category": [
+      "Items Received", "Double-Up"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Voucher",
+    "region": "Peach Town",
+    "category": [
+      "Items Received"
+    ],
+    "requires": "|Wallet|"
+  },
+  {
+    "name": "Wing Set",
+    "region": "White Mountain",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Item from Butch After Stamp 30 (HG Off-Road Tires)",
+    "region": "Sandpolis",
+    "category": [
+      "Items Received"
+    ],
+    "requires": []
+  },
+  {
+    "name": "B License Obtained",
+    "region": "Mushroom Road",
+    "category": [
+      "Licenses"
+    ],
+    "requires": "|Progressive Engine:2| AND |Progressive Tires:1| AND |Progressive Steering:1|"
+  },
+  {
+    "name": "A License Obtained",
+    "region": "Papaya Island",
+    "category": [
+      "Licenses"
+    ],
+    "requires": "((|Progressive Tires:4| AND |Progressive Engine:6| AND |Propeller|) OR (|Progressive Tires:6| AND |Progressive Engine:5|)) AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:1| AND |Progressive License:1|"
+  },
+  {
+    "name": "Super A License Obtained",
+    "region": "Cloud Hill",
+    "category": [
+      "Licenses"
+    ],
+    "requires": "|Progressive Tires:9| AND |Progressive Engine:6| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Steering:2| AND |Progressive Brakes:2| AND |Propeller| AND |Progressive License:2|"
+  },
+  {
+    "name": "Shop Purchase - Sports Tires",
+    "region": "Peach Town",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Shop Purchase - Off-Road Tires",
+    "region": "Peach Town",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Shop Purchase - Panther Engine",
+    "region": "Peach Town",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Shop Purchase - Quick Steering",
+    "region": "Peach Town",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Shop Purchase - Soft Pad",
+    "region": "Peach Town",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": []
+  },
+  {
+    "region": "Peach Town",
+    "name": "Shop Purchase - Mesh Wheel",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Shop Purchase - Spoke 1",
+    "region": "Peach Town",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Shop Purchase - Fog Lights",
+    "region": "Peach Town",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Shop Purchase - Air Horn",
+    "region": "Peach Town",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Shop Purchase - Digital Meter",
+    "region": "Peach Town",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": []
+  },
+  {
+    "name": "Shop Purchase - Semi-Racing Tires",
+    "region": "Peach Town",
+    "stampModeRegion": "Fuji City",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Gold Ornament| OR |Policeman's Club|) OR (|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Blue MAX Engine",
+    "region": "Peach Town",
+    "stampModeRegion": "Fuji City",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Gold Ornament| OR |Policeman's Club|) OR (|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Light Chassis",
+    "region": "Peach Town",
+    "stampModeRegion": "Fuji City",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Gold Ornament| OR |Policeman's Club|) OR (|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Sports Transmission",
+    "region": "Peach Town",
+    "stampModeRegion": "Fuji City",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Gold Ornament| OR |Policeman's Club|) OR (|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Spoke 2",
+    "region": "Peach Town",
+    "stampModeRegion": "Fuji City",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Gold Ornament| OR |Policeman's Club|) OR (|Mini-Tower| OR |Toy Gun|) OR (|Christmas Tree| OR |Arctic Pattern|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Chronometer",
+    "region": "Peach Town",
+    "stampModeRegion": "Fuji City",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Gold Ornament| OR |Policeman's Club|) OR (|Mini-Tower| OR |Toy Gun|) OR (|Papaya Ukulele| OR |UnbaboDoll|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Racing Tires",
+    "region": "Peach Town",
+    "stampModeRegion": "Sandpolis",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - HG Off-Road Tires",
+    "region": "Peach Town",
+    "stampModeRegion": "Sandpolis",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Blue MAX V2 Engine",
+    "region": "Peach Town",
+    "stampModeRegion": "Sandpolis",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - MAD Engine",
+    "region": "Peach Town",
+    "stampModeRegion": "Sandpolis",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Feather Chassis",
+    "region": "Peach Town",
+    "stampModeRegion": "Sandpolis",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - X2 Quick Steering",
+    "region": "Peach Town",
+    "stampModeRegion": "Sandpolis",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Flush 1",
+    "region": "Peach Town",
+    "stampModeRegion": "Sandpolis",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Flush 4",
+    "region": "Peach Town",
+    "stampModeRegion": "Sandpolis",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Mini-Tower| OR |Toy Gun|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Sticker",
+    "region": "Peach Town",
+    "stampModeRegion": "Sandpolis",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Mini-Tower| OR |Toy Gun|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Echo Air Horn",
+    "region": "Peach Town",
+    "stampModeRegion": "Sandpolis",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Bus Horn",
+    "region": "Peach Town",
+    "stampModeRegion": "Sandpolis",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Triangle Meter",
+    "region": "Peach Town",
+    "stampModeRegion": "Sandpolis",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Christmas Tree| OR |Arctic Pattern|) OR (|Angel's Wings| OR |God's Rod|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Wet Tires",
+    "region": "Peach Town",
+    "stampModeRegion": "Mushroom Road",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Flower Pattern| OR |Sky Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - HG Wet Tires",
+    "region": "Peach Town",
+    "stampModeRegion": "Mushroom Road",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Flower Pattern| OR |Sky Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - MAD V2 Tires",
+    "region": "Peach Town",
+    "stampModeRegion": "Mushroom Road",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Power Transmission",
+    "region": "Peach Town",
+    "stampModeRegion": "Mushroom Road",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Flush 3",
+    "region": "Peach Town",
+    "stampModeRegion": "Mushroom Road",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Flower Pattern| OR |Sky Pattern|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Studless Tires",
+    "region": "Peach Town",
+    "stampModeRegion": "White Mountain",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Christmas Tree| OR |Arctic Pattern|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - HG Studless Tires",
+    "region": "Peach Town",
+    "stampModeRegion": "White Mountain",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Christmas Tree| OR |Arctic Pattern|) OR (|Angel's Wings| OR |God's Rod|)",
+    "stampModeRequires": []
+  },
+  {
+    "region": "Peach Town",
+    "name": "Shop Purchase - Long MAD Engine",
+    "stampModeRegion": "White Mountain",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "stampModeRequires": []
+  },
+  {
+    "region": "Peach Town",
+    "name": "Shop Purchase - Hard Pad",
+    "stampModeRegion": "White Mountain",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Spoke 3",
+    "region": "Peach Town",
+    "stampModeRegion": "White Mountain",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Beam Lights",
+    "region": "Peach Town",
+    "stampModeRegion": "White Mountain",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Black MAX Engine",
+    "region": "Peach Town",
+    "stampModeRegion": "Papaya Island",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - RS Magnum Engine",
+    "region": "Peach Town",
+    "stampModeRegion": "Papaya Island",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Phantom Chassis",
+    "region": "Peach Town",
+    "stampModeRegion": "Papaya Island",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Speed Transmission",
+    "region": "Peach Town",
+    "stampModeRegion": "Papaya Island",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Flush 2",
+    "region": "Peach Town",
+    "stampModeRegion": "Papaya Island",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Papaya Ukulele| OR |UnbaboDoll|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Spoke 6",
+    "region": "Peach Town",
+    "stampModeRegion": "Papaya Island",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Papaya Ukulele| OR |UnbaboDoll|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Water Ski",
+    "region": "Peach Town",
+    "stampModeRegion": "Papaya Island",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Papaya Ukulele| OR |UnbaboDoll|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Bicycle Bell",
+    "region": "Peach Town",
+    "stampModeRegion": "Papaya Island",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Papaya Ukulele| OR |UnbaboDoll|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Spoke 4",
+    "region": "Peach Town",
+    "stampModeRegion": "Cloud Hill",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Angel's Wings| OR |God's Rod|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Spoke 5",
+    "region": "Peach Town",
+    "stampModeRegion": "Cloud Hill",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Angel's Wings| OR |God's Rod|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Flush 5",
+    "region": "Peach Town",
+    "stampModeRegion": "Cloud Hill",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Angel's Wings| OR |God's Rod|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Flight Wing",
+    "region": "Peach Town",
+    "stampModeRegion": "Cloud Hill",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Angel's Wings| OR |God's Rod|)",
+    "stampModeRequires": []
+  },
+  {
+    "name": "Shop Purchase - Space Horn",
+    "region": "Peach Town",
+    "stampModeRegion": "Cloud Hill",
+    "category": [
+      "Shop Purchases"
+    ],
+    "requires": "(|Angel's Wings| OR |God's Rod|)",
+    "stampModeRequires": []
+  }
+]
