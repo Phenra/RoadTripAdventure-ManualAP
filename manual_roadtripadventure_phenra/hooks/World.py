@@ -1,6 +1,6 @@
 # Object classes from AP core, to represent an entire MultiWorld and this individual World that's part of it
 from worlds.AutoWorld import World
-from BaseClasses import MultiWorld, CollectionState, Item, LocationProgressType
+from BaseClasses import MultiWorld, CollectionState, Item, Location, LocationProgressType
 
 # Object classes from Manual -- extending AP core -- representing items and locations that are used in generation
 from ..Items import ManualItem
@@ -323,6 +323,15 @@ def before_write_spoiler(world: World, multiworld: MultiWorld, spoiler_handle) -
 
 # This is called when you want to add information to the hint text
 def before_extend_hint_information(hint_data: dict[int, dict[int, str]], world: World, multiworld: MultiWorld, player: int) -> None:
+    # Send location hints for all Shop Purchase locations at the beginning of the game so the player can tell what they're buying.
+    def isLocationInCategory(location : Location, location_table : list, category : str) -> bool:
+        for i in location_table:
+            if location.name == i['name']:
+                return True if category in i['category'] else False
+    
+    for location in multiworld.get_locations(player):
+        if isLocationInCategory(location, location_table, "Shop Purchases"):
+            world.options.start_location_hints.value.add(location.name)
 
     ### Example way to use this hook:
     # if player not in hint_data:

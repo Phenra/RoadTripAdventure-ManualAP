@@ -28,7 +28,7 @@
                 "Decorations": 0,
                 "Stamps": 1
             },
-            "default": 0,
+            "default": 1,
             "allow_custom_value": false,
             "visibility": [
                 "simple_ui",
@@ -39,14 +39,14 @@
         "remove_double_up_stamps":{
             "description": [
                 "For roughly half of the stamps in the game, the player also receives a reward from an NPC immediately prior",
-                "   to receiving the stamp. Since NPC rewards and stamps are both loctions, this essentially means the player",
+                "   to receiving the stamp. Since NPC rewards and stamps are both locations, this essentially means the player",
                 "   is rewarded twice.",
                 "If using Decorations mode, enable this to remove those stamps from the location pool. The stamp and NPC reward",
                 "   are combined into one location.",
                 "This cannot be enabled in 'Stamps' mode, as it would bring the number of locations well below the number of items."
             ],
             "type": "Toggle",
-            "default": true,
+            "default": false,
             "visibility": [
                 "simple_ui",
                 "complex_ui",
