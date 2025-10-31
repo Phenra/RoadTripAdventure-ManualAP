@@ -153,7 +153,7 @@
   },
   {
     "count": 1,
-    "name": "Wing Set",
+    "name": "Jet Turbine",
     "category": [
       "Important Parts"
     ],
@@ -170,6 +170,14 @@
   {
     "count": 1,
     "name": "Water Ski",
+    "category": [
+      "Important Parts"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Wing Set",
     "category": [
       "Important Parts"
     ],
@@ -425,14 +433,6 @@
 	},
   {
     "count": 1,
-    "name": "Jet Turbine",
-    "category": [
-      "Important Parts"
-    ],
-    "progression_skip_balancing": true
-  },
-  {
-    "count": 1,
     "name": "Amethyst",
     "category": [
       "Important Collectibles"
@@ -661,115 +661,227 @@
   },
   {
     "count": 1,
-    "name": "Gold Ornament",
+    "name": "Gold Ornament (Key)",
     "category": [
       "Area Unlocks", "Garage Decoration"
     ],
     "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Policeman's Club (Key)",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Mini-Tower (Key)",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Toy Gun (Key)",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Model Train (Key)",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "M.Carton's Painting (Key)",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Flower Pattern (Key)",
+    "category": [
+      "Area Unlocks", "Garage Wallpaper"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Sky Pattern (Key)",
+    "category": [
+      "Area Unlocks", "Garage Wallpaper"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Christmas Tree (Key)",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Arctic Pattern (Key)",
+    "category": [
+      "Area Unlocks", "Garage Wallpaper"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Papaya Ukulele (Key)",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "UnbaboDoll (Key)",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "God's Rod (Key)",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Angel's Wings (Key)",
+    "category": [
+      "Area Unlocks", "Garage Decoration"
+    ],
+    "progression": true
+  },
+  {
+    "count": 1,
+    "name": "Gold Ornament",
+    "category": [
+      "Stamp Progression Only", "Garage Decoration"
+    ],
+    "filler": true
   },
   {
     "count": 1,
     "name": "Policeman's Club",
     "category": [
-      "Area Unlocks", "Garage Decoration"
+      "Stamp Progression Only", "Garage Decoration"
     ],
-    "progression": true
+    "filler": true
   },
   {
     "count": 1,
     "name": "Mini-Tower",
     "category": [
-      "Area Unlocks", "Garage Decoration"
+      "Stamp Progression Only", "Garage Decoration"
     ],
-    "progression": true
+    "filler": true
   },
   {
     "count": 1,
     "name": "Toy Gun",
     "category": [
-      "Area Unlocks", "Garage Decoration"
+      "Stamp Progression Only", "Garage Decoration"
     ],
-    "progression": true
+    "filler": true
   },
   {
     "count": 1,
     "name": "Model Train",
     "category": [
-      "Area Unlocks", "Garage Decoration"
+      "Stamp Progression Only", "Garage Decoration"
     ],
-    "progression": true
+    "filler": true
   },
   {
     "count": 1,
     "name": "M.Carton's Painting",
     "category": [
-      "Area Unlocks", "Garage Decoration"
+      "Stamp Progression Only", "Garage Decoration"
     ],
-    "progression": true
+    "filler": true
   },
   {
     "count": 1,
     "name": "Flower Pattern",
     "category": [
-      "Area Unlocks", "Garage Wallpaper"
+      "Stamp Progression Only", "Garage Wallpaper"
     ],
-    "progression": true
+    "filler": true
   },
   {
     "count": 1,
     "name": "Sky Pattern",
     "category": [
-      "Area Unlocks", "Garage Wallpaper"
+      "Stamp Progression Only", "Garage Wallpaper"
     ],
-    "progression": true
+    "filler": true
   },
   {
     "count": 1,
     "name": "Christmas Tree",
     "category": [
-      "Area Unlocks", "Garage Decoration"
+      "Stamp Progression Only", "Garage Decoration"
     ],
-    "progression": true
+    "filler": true
   },
   {
     "count": 1,
     "name": "Arctic Pattern",
     "category": [
-      "Area Unlocks", "Garage Wallpaper"
+      "Stamp Progression Only", "Garage Wallpaper"
     ],
-    "progression": true
+    "filler": true
   },
   {
     "count": 1,
     "name": "Papaya Ukulele",
     "category": [
-      "Area Unlocks", "Garage Decoration"
+      "Stamp Progression Only", "Garage Decoration"
     ],
-    "progression": true
+    "filler": true
   },
   {
     "count": 1,
     "name": "UnbaboDoll",
     "category": [
-      "Area Unlocks", "Garage Decoration"
+      "Stamp Progression Only", "Garage Decoration"
     ],
-    "progression": true
+    "filler": true
   },
   {
     "count": 1,
     "name": "God's Rod",
     "category": [
-      "Area Unlocks", "Garage Decoration"
+      "Stamp Progression Only", "Garage Decoration"
     ],
-    "progression": true
+    "filler": true
   },
   {
     "count": 1,
     "name": "Angel's Wings",
     "category": [
-      "Area Unlocks", "Garage Decoration"
+      "Stamp Progression Only", "Garage Decoration"
     ],
-    "progression": true
+    "filler": true
   },
   {
     "count": "11",

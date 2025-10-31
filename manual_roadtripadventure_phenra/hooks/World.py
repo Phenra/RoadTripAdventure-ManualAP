@@ -1,6 +1,6 @@
 # Object classes from AP core, to represent an entire MultiWorld and this individual World that's part of it
 from worlds.AutoWorld import World
-from BaseClasses import MultiWorld, CollectionState, Item
+from BaseClasses import MultiWorld, CollectionState, Item, LocationProgressType
 
 # Object classes from Manual -- extending AP core -- representing items and locations that are used in generation
 from ..Items import ManualItem
@@ -48,8 +48,8 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
     from ..Regions import regionMap
 
     # Many items, locations, and regions in Road Trip AP depend on whether the player is using Decorations or Stamps for area unlocks.
-    # If Stamps mode, swap requirements for locations and regions that relied on decorations to use their stampMode settings instead,
-    #    and also remove the "Area Unlocks" category from any item with it.
+    # If Stamps mode, swap requirements for locations and regions that relied on decorations to use their stampMode settings instead.
+
     if get_option_value(multiworld, player, "area_unlock_mode") == 1: # Stamp mode 
         for location in location_table:
             if "stampModeRegion" in location:
@@ -62,16 +62,11 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
                 regionMap[region]["requires"] = region_table[region]["stampModeRequires"]
                 region_table[region]["requires"] = region_table[region]["stampModeRequires"] # Update in both, just in case region_table is used later
 
-        for item in item_table:
-            if "Category" in item and "Area Unlocks" in item["category"]:
-                item["category"].remove("Area Unlocks")
-
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
     locationNamesToRemove: list[str] = [] # List of location names
 
-    # Many items, locations, and regions in Road Trip AP depend on whether the player is using Decorations or Stamps for area unlocks.
     # If Decorations mode, and 'Remove Double Up Stamps' is enabled, remove any locations in the 'Double-Up' category.
     # If Decorations mode, and 'Remove Double Up Stamps' is not enabled, remove any locations in the 'Combined' category.
     # If Stamps mode, always remove all locations with category 'Combined'.
@@ -92,19 +87,26 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     else:
         raise Exception("Area Unlock Mode is not Decorations or Stamps, please fix your YAML.")
 
-    # Define location categories where progression/useful prioritization may take place
+    # Define location categories where we want to potentially force a good item to be placed
     raceCategories = ["Races - C-Rank", "Races - B-Rank", "Races - A-Rank", "Races - Other"]
     minigameCategories = ["Challenge"]
 
-    # Pull percent chance from YAML for each set (race/minigame) to have progression/useful items forced there
+    # Pull the percent chances (set in the YAML) for races and certain minigames to have good items forced there
     percentChanceRace = get_option_value(multiworld, player, "prioritize_good_rewards_for_races")
     percentChanceMinigame = get_option_value(multiworld, player, "prioritize_good_rewards_for_minigames")
 
-    # Define function to handle forcing progression/useful on succesful roll
-    def rollForForceProgressionOrUseful(location, percentChance, random):
+    # Define function to handle forcing a good item to be placed at the passed location on successful roll
+    def rollForForceGoodItem(location, percentChance, random):
         x = random.randint(1, 100)
         if x <= percentChance:
-            location.item_rule = lambda item: item.advancement or item.useful or item.skip_in_prog_balancing
+            # Using 'location.item_rule' for this caused generation to fail when using Stamps mode and no additional progressive
+            #    item tracks (possibly due to being too restrictive?)
+            # Setting the location as priority seems to force item fill for that location to be handled prior to other
+            #    locations, which fixes this issue.
+            # However, we can only force the placement of a Progression item using this - this can't place a Useful item.
+
+            #location.item_rule = lambda item: item.advancement or item.useful or item.skip_in_prog_balancing
+            location.progress_type = LocationProgressType.PRIORITY
 
     for region in multiworld.regions:
         if region.player == player:
@@ -113,21 +115,24 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
                 if location.name in locationNamesToRemove:
                     region.locations.remove(location)
                 else:
+                    # For each location in the world, roll for a chance of forcing a good item to be there if it has one 
+                    #     of the earlier-defined categories. 
+                    # Categories do not appear to be stored in the location object from the multiworld, so we need to
+                    #     cross-reference location_table.
                     locationTableObj = None
-                    for obj in location_table:
+                    for obj in location_table: # Find the corresponding object in location_table so we can get the location's category
                         if obj['name'] == location.name:
                             locationTableObj = obj
                             break
                     if locationTableObj is not None:
                         # If 'prioritize_good_rewards_for_races' is set: For each race location, roll for a chance 
-                        #     to force a Progression or Useful item to be placed there.
+                        #     to force a good item to be placed there.
                         if any(category in locationTableObj['category'] for category in raceCategories):
-                            rollForForceProgressionOrUseful(location, percentChanceRace, world.random)
+                            rollForForceGoodItem(location, percentChanceRace, world.random)
                         # If 'prioritize_good_rewards_for_minigames' is set: For each mini-game stamp labelled with 
-                        #     the 'Challenge' category, roll for a chance to force a Progression or Useful item to be
-                        #     placed there.
+                        #     the 'Challenge' category, roll for a chance to force a good item to be placed there.
                         elif any(category in locationTableObj['category'] for category in minigameCategories):
-                            rollForForceProgressionOrUseful(location, percentChanceMinigame, world.random)
+                            rollForForceGoodItem(location, percentChanceMinigame, world.random)
 
 # This hook allows you to access the item names & counts before the items are created. Use this to increase/decrease the amount of a specific item in the pool
 # Valid item_config key/values:
@@ -149,22 +154,34 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
             if "category" in item and any(category in item["category"] for category in categories):
                 item_config[item["name"]] = 0
 
-    # If Decorations mode, remove all Stamp items, and remove any items specific to Stamp mode (e.g. the two decorations for Peach Town).    
+    # If Decorations mode, remove all Stamp items, and remove any items specific to Stamp mode (e.g. the filler versions of the Area Unlock 
+    #     items and the two decorations for Peach Town).    
     if unlockMode == 0: # Decorations mode
         removeAllItemsInCategories(item_table, ["Stamp Progression Only", "Stamps"])
-    # If Stamps mode, make all items in the 'Area Unlock' category filler.
+    # If Stamps mode, remove all 'Area Unlock' items, and remove the string "(Key)" from any item in the "Garage Decoration" or "Garage Wallpaper" categories.
+    #
+    # Dynamically changing an item's category in a hook does not seem to work, so I defined two copies of the area keys: one for Decorations mode
+    #     (which are actually used as keys, and are Progression), and one for Stamps mode (which are not used as keys, so just Filler).
+    #     
+    # Defining two items with the same name is not allowed, so I added "(Key)" to the names of the Area Unlock items.
+    #     However, this could lead players to believe they need to type (for example) "Mini-Tower (Key)" in the script in order to receive the item in-game,
+    #     so I want to remove it from the name during generation to prevent confusion.
+    #
+    # Previously, there was only one copy for each of these items, and I simply changed all of the items in the Area Unlock category to Filler.
+    #     However, this results in those items still appearing under "Area Unlocks" in the Manual client, which would be confusing in Stamps mode,
+    #     where they are not area unlocks.
     elif unlockMode == 1: # Stamp mode
-        for item in item_table:
-            if "category" in item and "Area Unlocks" in item["category"]:
-                temp = item_config[item["name"]]
-                item_config[item["name"]] = {"filler": temp}
+        removeAllItemsInCategories(item_table, ["Area Unlocks"])
+        for i in item_table:
+            if "(Key)" in i['name']:
+                i['name'].replace("Key", "")
     else:
         raise Exception("Area Unlock Mode is not Decorations or Stamps, please fix your YAML.")
     
-    # If 'addiitional_progressive_part_tracks' is less than 2, remove all items in the 'Upgrade Set 3' category.
+    # If 'additional_progressive_part_tracks' is less than 2, remove all items in the 'Upgrade Set 3' category.
     if progressivePartOption < 2:
         removeAllItemsInCategories(item_table, "Upgrade Set 3")
-    # If 'addiitional_progressive_part_tracks' is less than 1, also remove all items in the 'Upgrade Set 2' category.
+    # If 'additional_progressive_part_tracks' is less than 1, also remove all items in the 'Upgrade Set 2' category.
     if progressivePartOption < 1:
         removeAllItemsInCategories(item_table, "Upgrade Set 2")
 
@@ -181,7 +198,7 @@ def before_create_items_filler(item_pool: list, world: World, multiworld: MultiW
     # Use this hook to remove items from the item pool
     itemNamesToRemove: list[str] = [] # List of item names
 
-    # If item count is greater than location count, remove filler in a speicifc category order (stopping mid-category once enough have been removed):
+    # If item count is greater than location count, remove filler in a specific category order (stopping mid-category once enough have been removed):
     #     Garage Wallpapers, Garage Decorations, Bodies, Sticker, Wheels, Meters
 
     # Items in the item pool don't seem to retain their category data (categories might be a Manual-specific concept?), so a function

@@ -15,7 +15,7 @@
   },
   "Fuji City": {
     "connects_to": ["2 cities access"],
-    "requires": "|Gold Ornament| OR |Policeman's Club|",
+    "requires": "|Gold Ornament (Key)| OR |Policeman's Club (Key)|",
     "stampModeRequires": "|Stamp:5|"
   },  
   "My City": {
@@ -24,77 +24,77 @@
   },
   "Sandpolis": {
     "connects_to": ["White Mountain to Sandpolis Delivery"],
-    "requires": "(|Mini-Tower| OR |Toy Gun|) AND (|Progressive Steering:1| AND |Progressive Brakes:1|)",
+    "requires": "(|Mini-Tower (Key)| OR |Toy Gun (Key)|) AND (|Progressive Steering:1| AND |Progressive Brakes:1|)",
     "stampModeRequires": "|Stamp:10|"
   },
   "Chestnut Canyon": {
     "connects_to": [],
-    "requires": "(|Model Train| OR |M.Carton's Painting|) AND (|Progressive Steering:1| AND |Progressive Brakes:1|)",
+    "requires": "(|Model Train (Key)| OR |M.Carton's Painting (Key)|) AND (|Progressive Steering:1| AND |Progressive Brakes:1|)",
     "stampModeRequires": "|Stamp:15|"
   },
   "Mushroom Road": {
     "connects_to": ["Mushroom Road to Papaya Island Delivery"],
-    "requires": "(|Flower Pattern| OR |Sky Pattern|) AND (|Progressive Steering:1| AND |Progressive Brakes:1|)",
+    "requires": "(|Flower Pattern (Key)| OR |Sky Pattern (Key)|) AND (|Progressive Steering:1| AND |Progressive Brakes:1|)",
     "stampModeRequires": "|Stamp:20|"
   },
   "White Mountain": {
     "connects_to": ["White Mountain to Sandpolis Delivery"],
-    "requires": "(|Christmas Tree| OR |Arctic Pattern|) AND (|Progressive Steering:1| AND |Progressive Brakes:1|)",
+    "requires": "(|Christmas Tree (Key)| OR |Arctic Pattern (Key)|) AND (|Progressive Steering:1| AND |Progressive Brakes:1|)",
     "stampModeRequires": "|Stamp:25|"
   },
   "Papaya Island": {
     "connects_to": ["Mushroom Road to Papaya Island Delivery"],
-    "requires": "(|Papaya Ukulele| OR |UnbaboDoll|) AND (|Progressive Steering:1| AND |Progressive Brakes:1|)",
+    "requires": "(|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|) AND (|Progressive Steering:1| AND |Progressive Brakes:1|)",
     "stampModeRequires": "|Stamp:30|"
   },
   "Cloud Hill": {
     "connects_to": [],
-    "requires": "(|God's Rod| OR |Angel's Wings|) AND (|Progressive Engine:6| AND (|Jet Turbine| OR (|Propeller| AND |Wing Set|))) AND (|Progressive Steering:1| AND |Progressive Brakes:1|)",
+    "requires": "(|God's Rod (Key)| OR |Angel's Wings (Key)|) AND (|Progressive Engine:6| AND (|Jet Turbine| OR (|Propeller| AND |Wing Set|))) AND (|Progressive Steering:1| AND |Progressive Brakes:1|)",
     "stampModeRequires": "|Stamp:35|"
   },
   "Mushroom Road to Papaya Island Delivery": {
     "connects_to": [],
-    "requires": "(|Flower Pattern| OR |Sky Pattern|) AND (|Progressive Steering:1| AND |Progressive Brakes:1|) AND (|Papaya Ukulele| OR |UnbaboDoll|)",
+    "requires": "(|Flower Pattern (Key)| OR |Sky Pattern (Key)|) AND (|Progressive Steering:1| AND |Progressive Brakes:1|) AND (|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|)",
     "stampModeRequires": "|Stamp:30|"
   },
   "White Mountain to Sandpolis Delivery": {
     "connects_to": [],
-    "requires": "(|Christmas Tree| OR |Arctic Pattern|) AND (|Progressive Steering:1| AND |Progressive Brakes:1|) AND (|Mini-Tower| OR |Toy Gun|)",
+    "requires": "(|Christmas Tree (Key)| OR |Arctic Pattern (Key)|) AND (|Progressive Steering:1| AND |Progressive Brakes:1|) AND (|Mini-Tower (Key)| OR |Toy Gun (Key)|)",
     "stampModeRequires": "|Stamp:25|"
   },
   "2 cities access": {
     "connects_to": ["3 cities access"],
-    "requires": "(|Gold Ornament| OR |Policeman's Club|)",
+    "requires": "(|Gold Ornament (Key)| OR |Policeman's Club (Key)|)",
     "stampModeRequires": "|Stamp:5|"
   },
   "3 cities access": {
     "connects_to": ["4 cities access"],
-    "requires": "(|Mini-Tower| OR |Toy Gun|) AND (|Progressive Steering:1| AND |Progressive Brakes:1|)",
+    "requires": "(|Mini-Tower (Key)| OR |Toy Gun (Key)|) AND (|Progressive Steering:1| AND |Progressive Brakes:1|)",
     "stampModeRequires": "|Stamp:10|"
   },
   "4 cities access": {
     "connects_to": ["5 cities access"],
-    "requires": "(|Model Train| OR |M.Carton's Painting|)",
+    "requires": "(|Model Train (Key)| OR |M.Carton's Painting (Key)|)",
     "stampModeRequires": "|Stamp:15|"
   },
   "5 cities access": {
     "connects_to": ["6 cities access"],
-    "requires": "(|Flower Pattern| OR |Sky Pattern|)",
+    "requires": "(|Flower Pattern (Key)| OR |Sky Pattern (Key)|)",
     "stampModeRequires": "|Stamp:20|"
   },
   "6 cities access": {
     "connects_to": ["7 cities access"],
-    "requires": "(|Christmas Tree| OR |Arctic Pattern|)",
+    "requires": "(|Christmas Tree (Key)| OR |Arctic Pattern (Key)|)",
     "stampModeRequires": "|Stamp:25|"
   },
   "7 cities access": {
     "connects_to": ["8 cities access"],
-    "requires": "(|Papaya Ukulele| OR |UnbaboDoll|)",
+    "requires": "(|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|)",
     "stampModeRequires": "|Stamp:30|"
   },
   "8 cities access": {
     "connects_to": [],
-    "requires": "(|God's Rod| OR |Angel's Wings|)",
+    "requires": "(|God's Rod (Key)| OR |Angel's Wings (Key)|)",
     "stampModeRequires": "|Stamp:35|"
   }
 }

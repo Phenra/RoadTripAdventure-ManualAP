@@ -55,12 +55,12 @@
         },
         "prioritize_good_rewards_for_races":{
             "description": [
-                "Increases the likelihood of receiving a Progressive or Useful item as a reward for a race.",
+                "Increases the likelihood of receiving a Progression item as a reward for a race.",
                 "   Before items are placed, a random number between 1 and 100 is rolled for each race.",
-                "   If the number is equal to or below the selected value, the item will be guaranteed to be Progression or Useful.",
+                "   If the number is equal to or below the selected value, the item will be guaranteed to be Progression.",
                 "This provides more incentive to complete races, which are more skill-intensive and time-consuming than most stamps.",
                 "Since this is rolled for *each* race, it is not a guarantee that a certain percentage of races will have",
-                "   Progressive or Useful items - just that on average, they will."
+                "   Progression items - just that on average, they will."
             ],
             "type": "Range",
             "range_start": 0,
@@ -74,7 +74,7 @@
         },
         "prioritize_good_rewards_for_minigames":{
             "description": [
-                "Increases the likelihood of receiving a Progressive or Useful item as a reward for most minigames.",
+                "Increases the likelihood of receiving a Progression item as a reward for most minigames.",
                 "Same as the above, but for minigames. Several minigames are not included due to the lack of a",
                 "   meaningful challenge (notably Q's Rally, fishing, and the Figure 8 courses, since none of these",
                 "   have time limits)."
@@ -96,7 +96,7 @@
                 "   at the Recycle Shop.",
                 "Setting to 0 is not recommended, as it makes finding part upgrades a bit rare.",
                 "However, for Stamps mode, leaving at default will require the removal of a large number of filler items.",
-                "   Set to 1 to remove only garage decorations and wallpapers from the item pool in order to make room.",
+                "   Set to 1 to remove only garage decorations and wallpapers from the item pool in order to make room (recommended).",
                 "   Set to 0 to retain all filler items - but be aware this will likely slow down progress."
             ],
             "type": "Choice",

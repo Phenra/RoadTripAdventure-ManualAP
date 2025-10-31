@@ -1367,7 +1367,7 @@
     "category": [
       "Victory Condition"
     ],
-    "requires": "(|Jet Turbine| AND |Progressive Tires:9| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:2|) OR (|Progressive Tires:11| AND |Progressive Engine:7| AND |Progressive Chassis:4| AND |Progressive Transmission:5| AND |Progressive Steering:3| AND |Progressive Brakes:3|)",
+    "requires": "(|Progressive License:3| AND |Jet Turbine| AND |Progressive Tires:9| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:2|) OR (|Progressive Tires:11| AND |Progressive Engine:7| AND |Progressive Chassis:4| AND |Progressive Transmission:5| AND |Progressive Steering:3| AND |Progressive Brakes:3|)",
     "place_item_category": [
       "Filler"
     ]
@@ -2203,7 +2203,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Gold Ornament| OR |Policeman's Club|) OR (|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "requires": "(|Gold Ornament (Key)| OR |Policeman's Club (Key)|) OR (|Mini-Tower (Key)| OR |Toy Gun (Key)|) OR (|Flower Pattern (Key)| OR |Sky Pattern (Key)|) OR (|Christmas Tree (Key)| OR |Arctic Pattern (Key)|) OR (|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|) OR (|Angel's Wings (Key)| OR |God's Rod (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2213,7 +2213,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Gold Ornament| OR |Policeman's Club|) OR (|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|)",
+    "requires": "(|Gold Ornament (Key)| OR |Policeman's Club (Key)|) OR (|Mini-Tower (Key)| OR |Toy Gun (Key)|) OR (|Flower Pattern (Key)| OR |Sky Pattern (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2223,7 +2223,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Gold Ornament| OR |Policeman's Club|) OR (|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|)",
+    "requires": "(|Gold Ornament (Key)| OR |Policeman's Club (Key)|) OR (|Mini-Tower (Key)| OR |Toy Gun (Key)|) OR (|Flower Pattern (Key)| OR |Sky Pattern (Key)|) OR (|Christmas Tree (Key)| OR |Arctic Pattern (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2233,7 +2233,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Gold Ornament| OR |Policeman's Club|) OR (|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|)",
+    "requires": "(|Gold Ornament (Key)| OR |Policeman's Club (Key)|) OR (|Mini-Tower (Key)| OR |Toy Gun (Key)|) OR (|Flower Pattern (Key)| OR |Sky Pattern (Key)|) OR (|Christmas Tree (Key)| OR |Arctic Pattern (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2243,7 +2243,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Gold Ornament| OR |Policeman's Club|) OR (|Mini-Tower| OR |Toy Gun|) OR (|Christmas Tree| OR |Arctic Pattern|)",
+    "requires": "(|Gold Ornament (Key)| OR |Policeman's Club (Key)|) OR (|Mini-Tower (Key)| OR |Toy Gun (Key)|) OR (|Christmas Tree (Key)| OR |Arctic Pattern (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2253,7 +2253,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Gold Ornament| OR |Policeman's Club|) OR (|Mini-Tower| OR |Toy Gun|) OR (|Papaya Ukulele| OR |UnbaboDoll|)",
+    "requires": "(|Gold Ornament (Key)| OR |Policeman's Club (Key)|) OR (|Mini-Tower (Key)| OR |Toy Gun (Key)|) OR (|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2263,7 +2263,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "requires": "(|Mini-Tower (Key)| OR |Toy Gun (Key)|) OR (|Flower Pattern (Key)| OR |Sky Pattern (Key)|) OR (|Christmas Tree (Key)| OR |Arctic Pattern (Key)|) OR (|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|) OR (|Angel's Wings (Key)| OR |God's Rod (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2273,7 +2273,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "requires": "(|Mini-Tower (Key)| OR |Toy Gun (Key)|) OR (|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|) OR (|Angel's Wings (Key)| OR |God's Rod (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2283,7 +2283,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|)",
+    "requires": "(|Mini-Tower (Key)| OR |Toy Gun (Key)|) OR (|Flower Pattern (Key)| OR |Sky Pattern (Key)|) OR (|Christmas Tree (Key)| OR |Arctic Pattern (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2293,7 +2293,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|)",
+    "requires": "(|Mini-Tower (Key)| OR |Toy Gun (Key)|) OR (|Flower Pattern (Key)| OR |Sky Pattern (Key)|) OR (|Christmas Tree (Key)| OR |Arctic Pattern (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2303,7 +2303,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|)",
+    "requires": "(|Mini-Tower (Key)| OR |Toy Gun (Key)|) OR (|Flower Pattern (Key)| OR |Sky Pattern (Key)|) OR (|Christmas Tree (Key)| OR |Arctic Pattern (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2313,7 +2313,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "requires": "(|Mini-Tower (Key)| OR |Toy Gun (Key)|) OR (|Flower Pattern (Key)| OR |Sky Pattern (Key)|) OR (|Christmas Tree (Key)| OR |Arctic Pattern (Key)|) OR (|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|) OR (|Angel's Wings (Key)| OR |God's Rod (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2323,7 +2323,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|)",
+    "requires": "(|Mini-Tower (Key)| OR |Toy Gun (Key)|) OR (|Flower Pattern (Key)| OR |Sky Pattern (Key)|) OR (|Christmas Tree (Key)| OR |Arctic Pattern (Key)|) OR (|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2333,7 +2333,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Mini-Tower| OR |Toy Gun|)",
+    "requires": "(|Mini-Tower (Key)| OR |Toy Gun (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2343,7 +2343,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Mini-Tower| OR |Toy Gun|)",
+    "requires": "(|Mini-Tower (Key)| OR |Toy Gun (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2353,7 +2353,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|)",
+    "requires": "(|Mini-Tower (Key)| OR |Toy Gun (Key)|) OR (|Flower Pattern (Key)| OR |Sky Pattern (Key)|) OR (|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2363,7 +2363,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|)",
+    "requires": "(|Mini-Tower (Key)| OR |Toy Gun (Key)|) OR (|Flower Pattern (Key)| OR |Sky Pattern (Key)|) OR (|Christmas Tree (Key)| OR |Arctic Pattern (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2373,7 +2373,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Mini-Tower| OR |Toy Gun|) OR (|Christmas Tree| OR |Arctic Pattern|) OR (|Angel's Wings| OR |God's Rod|)",
+    "requires": "(|Mini-Tower (Key)| OR |Toy Gun (Key)|) OR (|Christmas Tree (Key)| OR |Arctic Pattern (Key)|) OR (|Angel's Wings (Key)| OR |God's Rod (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2383,7 +2383,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Flower Pattern| OR |Sky Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|)",
+    "requires": "(|Flower Pattern (Key)| OR |Sky Pattern (Key)|) OR (|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2393,7 +2393,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Flower Pattern| OR |Sky Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|)",
+    "requires": "(|Flower Pattern (Key)| OR |Sky Pattern (Key)|) OR (|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2403,7 +2403,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|)",
+    "requires": "(|Flower Pattern (Key)| OR |Sky Pattern (Key)|) OR (|Christmas Tree (Key)| OR |Arctic Pattern (Key)|) OR (|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2413,7 +2413,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Flower Pattern| OR |Sky Pattern|) OR (|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "requires": "(|Flower Pattern (Key)| OR |Sky Pattern (Key)|) OR (|Christmas Tree (Key)| OR |Arctic Pattern (Key)|) OR (|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|) OR (|Angel's Wings (Key)| OR |God's Rod (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2423,7 +2423,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Flower Pattern| OR |Sky Pattern|)",
+    "requires": "(|Flower Pattern (Key)| OR |Sky Pattern (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2433,7 +2433,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Christmas Tree| OR |Arctic Pattern|)",
+    "requires": "(|Christmas Tree (Key)| OR |Arctic Pattern (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2443,7 +2443,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Christmas Tree| OR |Arctic Pattern|) OR (|Angel's Wings| OR |God's Rod|)",
+    "requires": "(|Christmas Tree (Key)| OR |Arctic Pattern (Key)|) OR (|Angel's Wings (Key)| OR |God's Rod (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2453,7 +2453,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "requires": "(|Christmas Tree (Key)| OR |Arctic Pattern (Key)|) OR (|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|) OR (|Angel's Wings (Key)| OR |God's Rod (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2463,7 +2463,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "requires": "(|Christmas Tree (Key)| OR |Arctic Pattern (Key)|) OR (|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|) OR (|Angel's Wings (Key)| OR |God's Rod (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2473,7 +2473,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|)",
+    "requires": "(|Christmas Tree (Key)| OR |Arctic Pattern (Key)|) OR (|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2483,7 +2483,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Christmas Tree| OR |Arctic Pattern|) OR (|Papaya Ukulele| OR |UnbaboDoll|)",
+    "requires": "(|Christmas Tree (Key)| OR |Arctic Pattern (Key)|) OR (|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2493,7 +2493,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "requires": "(|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|) OR (|Angel's Wings (Key)| OR |God's Rod (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2503,7 +2503,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "requires": "(|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|) OR (|Angel's Wings (Key)| OR |God's Rod (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2513,7 +2513,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "requires": "(|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|) OR (|Angel's Wings (Key)| OR |God's Rod (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2523,7 +2523,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Papaya Ukulele| OR |UnbaboDoll|) OR (|Angel's Wings| OR |God's Rod|)",
+    "requires": "(|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|) OR (|Angel's Wings (Key)| OR |God's Rod (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2533,7 +2533,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Papaya Ukulele| OR |UnbaboDoll|)",
+    "requires": "(|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2543,7 +2543,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Papaya Ukulele| OR |UnbaboDoll|)",
+    "requires": "(|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2553,7 +2553,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Papaya Ukulele| OR |UnbaboDoll|)",
+    "requires": "(|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2563,7 +2563,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Papaya Ukulele| OR |UnbaboDoll|)",
+    "requires": "(|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2573,7 +2573,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Angel's Wings| OR |God's Rod|)",
+    "requires": "(|Angel's Wings (Key)| OR |God's Rod (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2583,7 +2583,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Angel's Wings| OR |God's Rod|)",
+    "requires": "(|Angel's Wings (Key)| OR |God's Rod (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2593,7 +2593,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Angel's Wings| OR |God's Rod|)",
+    "requires": "(|Angel's Wings (Key)| OR |God's Rod (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2603,7 +2603,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Angel's Wings| OR |God's Rod|)",
+    "requires": "(|Angel's Wings (Key)| OR |God's Rod (Key)|)",
     "stampModeRequires": []
   },
   {
@@ -2613,7 +2613,7 @@
     "category": [
       "Shop Purchases"
     ],
-    "requires": "(|Angel's Wings| OR |God's Rod|)",
+    "requires": "(|Angel's Wings (Key)| OR |God's Rod (Key)|)",
     "stampModeRequires": []
   }
 ]
