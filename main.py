@@ -537,9 +537,10 @@ def main():
                 print("initAP patches several functions that would interfere with the manual Archipelago randomizer:")
                 print("- Prevents shop purchases from going to your inventory (except in the My City part shop)")
                 print("- Prevents NPC rewards from being added to your inventory")
+                print("- Prevents receiving license upgrades from completing all races within a rank")
                 print("- Prevents NPCs from equipping parts to you (e.g. in the Temple Under the Sea)")
-                print("- Prevents picking up overworld items (e.g gemstones)")
-                print("- Allows access to Tin Raceway with just the Rank A license")
+                print("- Makes overworld items always visible, even if the player already has that item (e.g gemstones)")
+                print("- Allows access to Tin Raceway with just the Rank A license (allows Tin Raceway to be a location check)")
                 print()
             elif(cmd == CMD_GET or cmd == CMD_REMOVE):
                 if item:              
