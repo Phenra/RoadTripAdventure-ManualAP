@@ -97,3 +97,4 @@ Once you receive a progressive part upgrade, the script will update "**current_r
 
 ## Known issues
 - The modification to the game that stops NPCs from giving you items also prevents the game from unequipping your Flight Wing if you attempt to bring it into Ski Jump. (Have fun with that one!)
+- The patch to make the gemstones always visible is causing the Topaz and Emerald to have glitched textures for some reason.
