@@ -542,8 +542,11 @@ def main():
                 print("- Makes overworld items always visible, even if the player already has that item (e.g gemstones)")
                 print("- Allows access to Tin Raceway with just the Rank A license (allows Tin Raceway to be a location check)")
                 print()
-            elif(cmd == CMD_GET or cmd == CMD_REMOVE):
-                if item:              
+            elif(cmd == CMD_GET or cmd == CMD_REMOVE):               
+                if item:
+                    # Remove the " (Key)" string if included
+                    item = item.replace(" (Key)", "")
+                    
                     # If the item is a progressive upgrade...
                     if (item in data["progressiveUpgrades"]["names"]):
                         updateProgressiveUpgrade(data, pine, cmd, item)

@@ -158,23 +158,29 @@ def before_create_items_all(item_config: dict[str, int|dict], world: World, mult
     #     items and the two decorations for Peach Town).    
     if unlockMode == 0: # Decorations mode
         removeAllItemsInCategories(item_table, ["Stamp Progression Only", "Stamps"])
-    # If Stamps mode, remove all 'Area Unlock' items, and remove the string "(Key)" from any item in the "Garage Decoration" or "Garage Wallpaper" categories.
-    #
-    # Dynamically changing an item's category in a hook does not seem to work, so I defined two copies of the area keys: one for Decorations mode
-    #     (which are actually used as keys, and are Progression), and one for Stamps mode (which are not used as keys, so just Filler).
-    #     
-    # Defining two items with the same name is not allowed, so I added "(Key)" to the names of the Area Unlock items.
-    #     However, this could lead players to believe they need to type (for example) "Mini-Tower (Key)" in the script in order to receive the item in-game,
-    #     so I want to remove it from the name during generation to prevent confusion.
-    #
-    # Previously, there was only one copy for each of these items, and I simply changed all of the items in the Area Unlock category to Filler.
-    #     However, this results in those items still appearing under "Area Unlocks" in the Manual client, which would be confusing in Stamps mode,
-    #     where they are not area unlocks.
+
+        # Dynamically changing an item's category in a hook does not seem to work, so I defined two copies of the area keys: one for Decorations mode
+        #     (which are actually used as keys, and are Progression), and one for Stamps mode (which are not used as keys, so just Filler).
+        #     
+        # Defining two items with the same name is not allowed, so I added "(Key)" to the names of the Area Unlock items.
+        #     However, this could lead players to believe they need to type (for example) "Mini-Tower (Key)" in the script in order to receive the item in-game,
+        #     so I want to remove it from the name during generation to prevent confusion.
+        #
+        # Previously, there was only one copy for each of these items, and I simply changed all of the items in the Area Unlock category to Filler.
+        #     However, this results in those items still appearing under "Area Unlocks" in the Manual client, which would be confusing in Stamps mode,
+        #     where they are not area unlocks.
+
+        # ISSUE: Renaming is causing issues with generation, since it's expecting the old names. Commenting this out.
+        # for i in item_table:
+        #     if " (Key)" in i['name']:
+        #         value = item_config.pop(i['name'])
+        #         i['name'] = i['name'].replace(" (Key)", "")
+        #         item_config[i['name']] = value
+
+    # If Stamps mode, remove all 'Area Unlock' items
     elif unlockMode == 1: # Stamp mode
         removeAllItemsInCategories(item_table, ["Area Unlocks"])
-        for i in item_table:
-            if "(Key)" in i['name']:
-                i['name'].replace("Key", "")
+
     else:
         raise Exception("Area Unlock Mode is not Decorations or Stamps, please fix your YAML.")
     
