@@ -1,6 +1,5 @@
 from cx_Freeze import setup
 
-# This seems to be broken?
 # build_exe_options = {
 #     "include_files": [
 #         "addresses.json"

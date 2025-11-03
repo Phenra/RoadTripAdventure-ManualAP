@@ -96,7 +96,7 @@
                 "   at the Recycle Shop.",
                 "Setting to 0 is not recommended, as it makes finding part upgrades a bit rare.",
                 "However, for Stamps mode, leaving at default will require the removal of a large number of filler items.",
-                "   Set to 1 to remove only garage decorations and wallpapers from the item pool in order to make room (recommended).",
+                "   Set to 1 to remove only garage decorations and wallpapers from the item pool in order to make room.",
                 "   Set to 0 to retain all filler items - but be aware this will likely slow down progress."
             ],
             "type": "Choice",

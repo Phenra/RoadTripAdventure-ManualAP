@@ -244,8 +244,8 @@ def updateProgressiveUpgrade(data : dict, pine : Pine, cmd : str, item : str):
             typeObj = data["parts"]["engines"]
         case "Chassis":
             typeObj = data["parts"]["chassis"]
-        case "Transmissions":
-            typeObj = data["parts"]["transmissions"]
+        case "Transmission":
+            typeObj = data["parts"]["transmission"]
         case "Steering":
             typeObj = data["parts"]["steering"]
         case "Brakes":
