@@ -367,7 +367,7 @@ def updateBody(table : dict, pine : Pine, cmd : str, item : str):
 def setLicense(table : dict, pine : Pine, cmd : str, item : str):
     address = int(table["address"], 16) # Addresses in data object are hex strings e.g. "0x2DC56C", need to convert to int
     value = table["values"][item]
-    size = table["sizeInBytes"] # Current license is stored in a word (4 bytes)
+    size = table["sizeInBytes"]
 
     if cmd == CMD_REMOVE:
         if value > 0:

@@ -27,7 +27,7 @@
   },
   "licenses":{
     "address": "0x177FDB1",
-    "sizeInBytes": 4,
+    "sizeInBytes": 1,
     "values":{
       "C License": 0,
       "B License": 1,
