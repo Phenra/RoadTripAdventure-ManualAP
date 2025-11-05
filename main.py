@@ -149,13 +149,23 @@ def init(data : dict, pine : Pine):
         0x25C868, # Ruby
         0x25CA48, # Fountain Pen
         0x25CB28, # Blue Sapphire
-        0x25D410, # Topaz
-        0x25D520  # Emerald
+        #0x25D410, # Topaz
+        #0x25D520  # Emerald
     ]
 
     for address in overworldItemInventoryChecks:
         pine.write_bytes(address, bytes([0x00, 0x00, 0x02, 0x24])) # addiu v0,zero,0x0 (24020000)
         pine.write_bytes(address+4, NOP_BYTES) # Remove branch delay slots
+
+    # For some reason, the layout of the functions for the Topaz and the Emerald are a little different
+    #    from the others. For these, let's change the bc1f (Branch on floating point false) call
+    #    that likely checks to see if we are colliding with the gemstone and branches if we aren't
+    #    to an unconditional branch, so it branches even if we are colliding with it.
+    #
+    # Note that these actually use the exact same machine code, as branches are relative (unlike jumps),
+    #    and these need to branch the same distance away from the current instruction.
+    pine.write_bytes(0x25D490, bytes([0x08, 0x00, 0x00, 0x10])) # beq zero,zero,0x25D4B4 (10000008)
+    pine.write_bytes(0x25D5A0, bytes([0x08, 0x00, 0x00, 0x10])) # beq zero,zero,0x25D5C4 (10000008)
 
     print("initAP Successful")
 
