@@ -217,26 +217,10 @@
     "requires": []
   },
   {
-    "name": "Stamp 2 / Local Peach Wine",
-    "region": "Peach Town",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": []
-  },
-  {
     "name": "Stamp 2",
     "region": "Peach Town",
     "category": [
-      "Stamps", "Double-Up"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Stamp 3 / Peach Doll",
-    "region": "Peach Town",
-    "category": [
-      "Stamps", "Combined"
+      "Stamps"
     ],
     "requires": []
   },
@@ -244,7 +228,7 @@
     "name": "Stamp 3",
     "region": "Peach Town",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": []
   },
@@ -273,18 +257,10 @@
     "requires": []
   },
   {
-    "name": "Stamp 7 / Body Q150",
-    "region": "Peach Town",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": "|Magazine|"
-  },
-  {
     "name": "Stamp 7",
     "region": "Peach Town",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": "|Magazine|"
   },
@@ -297,18 +273,10 @@
     "requires": "|Peach|"
   },
   {
-    "name": "Stamp 9 / Body Q087",
-    "region": "My City",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": "|Topaz| AND |Ruby| AND |Blue Sapphire| AND |Moonstone| AND |Emerald| AND |Amethyst| AND |Black Opal|"
-  },
-  {
     "name": "Stamp 9",
     "region": "My City",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": "|Topaz| AND |Ruby| AND |Blue Sapphire| AND |Moonstone| AND |Emerald| AND |Amethyst| AND |Black Opal|"
   },
@@ -321,26 +289,10 @@
     "requires": []
   },
   {
-    "name": "Stamp 11 / Gold Ornament",
-    "region": "Fuji City",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": []
-  },
-  {
     "name": "Stamp 11",
     "region": "Fuji City",
     "category": [
-      "Stamps", "Double-Up"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Stamp 12 / Policeman's Club",
-    "region": "Fuji City",
-    "category": [
-      "Stamps", "Combined"
+      "Stamps"
     ],
     "requires": []
   },
@@ -348,7 +300,7 @@
     "name": "Stamp 12",
     "region": "Fuji City",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": []
   },
@@ -364,15 +316,7 @@
     "name": "Stamp 14",
     "region": "Fuji City",
     "category": [
-      "Stamps", "Double-Up"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Stamp 14 / Cherry Meter",
-    "region": "Fuji City",
-    "category": [
-      "Stamps", "Combined"
+      "Stamps"
     ],
     "requires": []
   },
@@ -393,18 +337,10 @@
     "requires": []
   },
   {
-    "name": "Stamp 17 / Love Sick Meter",
-    "region": "Fuji City",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": []
-  },
-  {
     "name": "Stamp 17",
     "region": "Fuji City",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": []
   },
@@ -417,26 +353,10 @@
     "requires": []
   },
   {
-    "name": "Stamp 19 / Trumpet Horn",
-    "region": "Fuji City",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": []
-  },
-  {
     "name": "Stamp 19",
     "region": "Fuji City",
     "category": [
-      "Stamps", "Double-Up"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Stamp 20 / Room with a View",
-    "region": "Fuji City",
-    "category": [
-      "Stamps", "Combined"
+      "Stamps"
     ],
     "requires": []
   },
@@ -444,23 +364,15 @@
     "name": "Stamp 20",
     "region": "Fuji City",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": []
-  },
-  {
-    "name": "Stamp 21 / Urban Pattern",
-    "region": "Fuji City",
-    "category": [
-      "Stamps", "Combined", "Challenge"
-    ],
-    "requires": "(|Progressive Engine:5| AND |Progressive Tires:4| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:1|) OR (|Progressive Engine:6| AND |Progressive Tires:2| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Steering:2| AND |Progressive Brakes:1|)"
   },
   {
     "name": "Stamp 21",
     "region": "Fuji City",
     "category": [
-      "Stamps", "Double-Up", "Challenge"
+      "Stamps", "Challenge"
     ],
     "requires": "(|Progressive Engine:5| AND |Progressive Tires:4| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:1|) OR (|Progressive Engine:6| AND |Progressive Tires:2| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Steering:2| AND |Progressive Brakes:1|)"
   },
@@ -481,26 +393,10 @@
     "requires": []
   },
   {
-    "name": "Stamp 24 / Mini-Tower",
-    "region": "Sandpolis",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": []
-  },
-  {
     "name": "Stamp 24",
     "region": "Sandpolis",
     "category": [
-      "Stamps", "Double-Up"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Stamp 25 / Toy Gun",
-    "region": "Sandpolis",
-    "category": [
-      "Stamps", "Combined"
+      "Stamps"
     ],
     "requires": []
   },
@@ -508,7 +404,7 @@
     "name": "Stamp 25",
     "region": "Sandpolis",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": []
   },
@@ -548,15 +444,7 @@
     "name": "Stamp 30",
     "region": "Sandpolis",
     "category": [
-      "Stamps", "Double-Up"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Stamp 30 / Hide-out Pattern",
-    "region": "Sandpolis",
-    "category": [
-      "Stamps", "Combined"
+      "Stamps"
     ],
     "requires": []
   },
@@ -617,34 +505,18 @@
     "requires": []
   },
   {
-    "name": "Stamp 38 / Soccer Pattern",
-    "region": "Sandpolis",
-    "category": [
-      "Stamps", "Combined", "Challenge"
-    ],
-    "requires": "|Progressive Tires:1| AND |Progressive Steering:1|"
-  },
-  {
     "name": "Stamp 38",
     "region": "Sandpolis",
     "category": [
-      "Stamps", "Double-Up", "Challenge"
+      "Stamps", "Challenge"
     ],
     "requires": "|Progressive Tires:1| AND |Progressive Steering:1|"
-  },
-  {
-    "name": "Stamp 39 / Chicken Horn",
-    "region": "Sandpolis",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": "|Fountain Pen|"
   },
   {
     "name": "Stamp 39",
     "region": "Sandpolis",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": "|Fountain Pen|"
   },
@@ -657,34 +529,18 @@
     "requires": []
   },
   {
-    "name": "Stamp 41 / Flower Pattern",
-    "region": "Peach Town",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": "|Flower Seed|"
-  },
-  {
     "name": "Stamp 41",
     "region": "Peach Town",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": "|Flower Seed|"
-  },
-  {
-    "name": "Stamp 42 / Body Q030",
-    "region": "Fuji City",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": []
   },
   {
     "name": "Stamp 42",
     "region": "Fuji City",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": []
   },
@@ -697,18 +553,10 @@
     "requires": []
   },
   {
-    "name": "Stamp 44 / Space Meter",
-    "region": "Sandpolis",
-    "category": [
-      "Stamps", "Combined", "Challenge"
-    ],
-    "requires": []
-  },
-  {
     "name": "Stamp 44",
     "region": "Sandpolis",
     "category": [
-      "Stamps", "Double-Up", "Challenge"
+      "Stamps", "Challenge"
     ],
     "requires": []
   },
@@ -721,26 +569,10 @@
     "requires": []
   },
   {
-    "name": "Stamp 46 / Coine Reward 10 (Hyper MAX)",
-    "region": "7 cities access",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": []
-  },
-  {
     "name": "Stamp 46",
     "region": "7 cities access",
     "category": [
-      "Stamps", "Double-Up"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Stamp 47 / RS Magnum",
-    "region": "Sandpolis",
-    "category": [
-      "Stamps", "Combined", "Challenge"
+      "Stamps"
     ],
     "requires": []
   },
@@ -748,23 +580,15 @@
     "name": "Stamp 47",
     "region": "Sandpolis",
     "category": [
-      "Stamps", "Double-Up", "Challenge"
+      "Stamps", "Challenge"
     ],
     "requires": []
-  },
-  {
-    "name": "Stamp 48 / Body Q089",
-    "region": "My City",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": "|Progressive Engine:5| AND |Progressive Tires:2| AND |Progressive Chassis:1| AND |Progressive Transmission:1| AND |Progressive Steering:1|"
   },
   {
     "name": "Stamp 48",
     "region": "My City",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": "|Progressive Engine:5| AND |Progressive Tires:2| AND |Progressive Chassis:1| AND |Progressive Transmission:1| AND |Progressive Steering:1|"
   },
@@ -801,26 +625,10 @@
     "requires": []
   },
   {
-    "name": "Stamp 53 / M.Carton's Painting",
-    "region": "Chestnut Canyon",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": []
-  },
-  {
     "name": "Stamp 53",
     "region": "Chestnut Canyon",
     "category": [
-      "Stamps", "Double-Up"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Stamp 54 / Model Train",
-    "region": "Chestnut Canyon",
-    "category": [
-      "Stamps", "Combined"
+      "Stamps"
     ],
     "requires": []
   },
@@ -828,7 +636,7 @@
     "name": "Stamp 54",
     "region": "Chestnut Canyon",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": []
   },
@@ -865,18 +673,10 @@
     "requires": "|Progressive Steering:1|"
   },
   {
-    "name": "Stamp 59 / Baby Horn",
-    "region": "Chestnut Canyon",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": []
-  },
-  {
     "name": "Stamp 59",
     "region": "Chestnut Canyon",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": []
   },
@@ -889,26 +689,10 @@
     "requires": []
   },
   {
-    "name": "Stamp 61 / Christmas Tree",
-    "region": "White Mountain",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": []
-  },
-  {
     "name": "Stamp 61",
     "region": "White Mountain",
     "category": [
-      "Stamps", "Double-Up"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Stamp 62 / Arctic Pattern",
-    "region": "White Mountain",
-    "category": [
-      "Stamps", "Combined"
+      "Stamps"
     ],
     "requires": []
   },
@@ -916,15 +700,7 @@
     "name": "Stamp 62",
     "region": "White Mountain",
     "category": [
-      "Stamps", "Double-Up"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Stamp 63 / Body Q037",
-    "region": "White Mountain",
-    "category": [
-      "Stamps", "Combined"
+      "Stamps"
     ],
     "requires": []
   },
@@ -932,23 +708,15 @@
     "name": "Stamp 63",
     "region": "White Mountain",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": []
-  },
-  {
-    "name": "Stamp 64 / Flower Seed",
-    "region": "White Mountain",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": "|Papu Flower|"
   },
   {
     "name": "Stamp 64",
     "region": "White Mountain",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": "|Papu Flower|"
   },
@@ -969,26 +737,10 @@
     "requires": "|Jet Turbine|"
   },
   {
-    "name": "Stamp 67 / Christmas Horn",
-    "region": "White Mountain",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": []
-  },
-  {
     "name": "Stamp 67",
     "region": "White Mountain",
     "category": [
-      "Stamps", "Double-Up"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Stamp 68 / Coin Radar",
-    "region": "White Mountain",
-    "category": [
-      "Stamps", "Combined"
+      "Stamps"
     ],
     "requires": []
   },
@@ -996,7 +748,7 @@
     "name": "Stamp 68",
     "region": "White Mountain",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": []
   },
@@ -1017,18 +769,10 @@
     "requires": "|Progressive Chassis:1|"
   },
   {
-    "name": "Stamp 71 / Body Q082",
-    "region": "White Mountain to Sandpolis Delivery",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": []
-  },
-  {
     "name": "Stamp 71",
     "region": "White Mountain to Sandpolis Delivery",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": []
   },
@@ -1041,26 +785,10 @@
     "requires": []
   },
   {
-    "name": "Stamp 73 / UnbaboDoll",
-    "region": "Papaya Island",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": []
-  },
-  {
     "name": "Stamp 73",
     "region": "Papaya Island",
     "category": [
-      "Stamps", "Double-Up"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Stamp 74 / Papaya Ukulele",
-    "region": "Papaya Island",
-    "category": [
-      "Stamps", "Combined"
+      "Stamps"
     ],
     "requires": []
   },
@@ -1068,7 +796,7 @@
     "name": "Stamp 74",
     "region": "Papaya Island",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": []
   },
@@ -1097,18 +825,10 @@
     "requires": []
   },
   {
-    "name": "Stamp 78 / Summer Pattern",
-    "region": "Papaya Island",
-    "category": [
-      "Stamps", "Combined", "Challenge"
-    ],
-    "requires": "|Jet Turbine| OR (|Progressive Tires:6| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2|) OR (|Progressive Tires:1| AND |Progressive Engine:7| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2|)"
-  },
-  {
     "name": "Stamp 78",
     "region": "Papaya Island",
     "category": [
-      "Stamps", "Double-Up", "Challenge"
+      "Stamps", "Challenge"
     ],
     "requires": "|Jet Turbine| OR (|Progressive Tires:6| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2|) OR (|Progressive Tires:1| AND |Progressive Engine:7| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2|)"
   },
@@ -1129,18 +849,10 @@
     "requires": "|Fluffy Mushroom| AND |Uzumasa's Autograph|"
   },
   {
-    "name": "Stamp 81 / Jet Turbine",
-    "region": "Papaya Island",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": []
-  },
-  {
     "name": "Stamp 81",
     "region": "Papaya Island",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": []
   },
@@ -1177,26 +889,10 @@
     "requires": []
   },
   {
-    "name": "Stamp 86 / Angel's Wings",
-    "region": "Cloud Hill",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": []
-  },
-  {
     "name": "Stamp 86",
     "region": "Cloud Hill",
     "category": [
-      "Stamps", "Double-Up"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Stamp 87 / God's Rod",
-    "region": "Cloud Hill",
-    "category": [
-      "Stamps", "Combined"
+      "Stamps"
     ],
     "requires": []
   },
@@ -1204,55 +900,31 @@
     "name": "Stamp 87",
     "region": "Cloud Hill",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": []
-  },
-  {
-    "name": "Stamp 88 / Sky Pattern",
-    "region": "Cloud Hill",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": "(|Progressive Tires:9| AND |Progressive Engine:7| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Steering:2| AND |Progressive Brakes:2|) OR (|Jet Turbine| AND |Progressive Tires:4| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:2|)"
   },
   {
     "name": "Stamp 88",
     "region": "Cloud Hill",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": "(|Progressive Tires:9| AND |Progressive Engine:7| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Steering:2| AND |Progressive Brakes:2|) OR (|Jet Turbine| AND |Progressive Tires:4| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:2|)"
-  },
-  {
-    "name": "Stamp 89 / Body Q083 (Duck Quiz 3)",
-    "region": "Cloud Hill",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": []
   },
   {
     "name": "Stamp 89",
     "region": "Cloud Hill",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": []
-  },
-  {
-    "name": "Stamp 90 / Rainbow Meter",
-    "region": "Cloud Hill",
-    "category": [
-      "Stamps", "Combined", "Challenge"
-    ],
-    "requires": "|Progressive Tires:11| AND |Progressive Engine:8| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Brakes:3| AND |Jet Turbine| AND |Wing Set|"
   },
   {
     "name": "Stamp 90",
     "region": "Cloud Hill",
     "category": [
-      "Stamps", "Double-Up", "Challenge"
+      "Stamps", "Challenge"
     ],
     "requires": "|Progressive Tires:11| AND |Progressive Engine:8| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Brakes:3| AND |Jet Turbine| AND |Wing Set|"
   },
@@ -1265,18 +937,10 @@
     "requires": []
   },
   {
-    "name": "Stamp 92 / Venus Horn",
-    "region": "Mushroom Road",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": []
-  },
-  {
     "name": "Stamp 92",
     "region": "Mushroom Road",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": []
   },
@@ -1313,26 +977,10 @@
     "requires": []
   },
   {
-    "name": "Stamp 97 / Fantasy Horn",
-    "region": "Peach Town",
-    "category": [
-      "Stamps", "Combined"
-    ],
-    "requires": []
-  },
-  {
     "name": "Stamp 97",
     "region": "Peach Town",
     "category": [
-      "Stamps", "Double-Up"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Stamp 98 / Body Q003",
-    "region": "White Mountain",
-    "category": [
-      "Stamps", "Combined"
+      "Stamps"
     ],
     "requires": []
   },
@@ -1340,15 +988,7 @@
     "name": "Stamp 98",
     "region": "White Mountain",
     "category": [
-      "Stamps", "Double-Up"
-    ],
-    "requires": []
-  },
-  {
-    "name": "Stamp 99 / UFO Pattern",
-    "region": "Sandpolis",
-    "category": [
-      "Stamps", "Combined"
+      "Stamps"
     ],
     "requires": []
   },
@@ -1356,7 +996,7 @@
     "name": "Stamp 99",
     "region": "Sandpolis",
     "category": [
-      "Stamps", "Double-Up"
+      "Stamps"
     ],
     "requires": []
   },
@@ -1594,7 +1234,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 46"
   },
   {
     "name": "Trade Quest 1 (Hero Super Card)",
@@ -1658,7 +1299,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 86"
   },
   {
     "name": "Arctic Pattern",
@@ -1666,7 +1308,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 62"
   },
   {
     "name": "Baby Horn",
@@ -1674,7 +1317,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 59"
   },
   {
     "name": "Body Q003",
@@ -1682,7 +1326,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 98"
   },
   {
     "name": "Body Q030",
@@ -1690,7 +1335,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 42"
   },
   {
     "name": "Body Q034",
@@ -1706,7 +1352,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 63"
   },
   {
     "name": "Body Q082",
@@ -1714,15 +1361,17 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 71"
   },
   {
-    "name": "Body Q083",
+    "name": "Body Q083 (Duck Quiz 3)",
     "region": "Cloud Hill",
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 89"
   },
   {
     "name": "Body Q085",
@@ -1738,7 +1387,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": "|Topaz| AND |Ruby| AND |Blue Sapphire| AND |Moonstone| AND |Emerald| AND |Amethyst| AND |Black Opal|"
+    "requires": "|Topaz| AND |Ruby| AND |Blue Sapphire| AND |Moonstone| AND |Emerald| AND |Amethyst| AND |Black Opal|",
+    "doubleUpStamp": "Stamp 9"
   },
   {
     "name": "Body Q089",
@@ -1746,7 +1396,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": "|Progressive Engine:5| AND |Progressive Tires:2| AND |Progressive Chassis:1| AND |Progressive Transmission:1| AND |Progressive Steering:1|"
+    "requires": "|Progressive Engine:5| AND |Progressive Tires:2| AND |Progressive Chassis:1| AND |Progressive Transmission:1| AND |Progressive Steering:1|",
+    "doubleUpStamp": "Body Q089"
   },
   {
     "name": "Body Q150",
@@ -1754,7 +1405,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": "|Magazine|"
+    "requires": "|Magazine|",
+    "doubleUpStamp": "Stamp 7"
   },
   {
     "name": "Cherry Meter",
@@ -1762,7 +1414,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 14"
   },
   {
     "name": "Chicken Horn",
@@ -1770,7 +1423,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": "|Fountain Pen|"
+    "requires": "|Fountain Pen|",
+    "doubleUpStamp": "Stamp 39"
   },
   {
     "name": "Christmas Horn",
@@ -1778,7 +1432,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 67"
   },
   {
     "name": "Christmas Tree",
@@ -1786,7 +1441,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 61"
   },
   {
     "name": "Coin Radar",
@@ -1794,7 +1450,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 68"
   },
   {
     "name": "Duck Meter (Duck Quiz 1)",
@@ -1818,7 +1475,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 97"
   },
   {
     "name": "Flower Pattern",
@@ -1826,7 +1484,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": "|Flower Seed|"
+    "requires": "|Flower Seed|",
+    "doubleUpStamp": "Stamp 41"
   },
   {
     "name": "Flower Seed",
@@ -1834,7 +1493,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": "|Papu Flower|"
+    "requires": "|Papu Flower|",
+    "doubleUpStamp": "Stamp 64"
   },
   {
     "name": "God's Rod",
@@ -1842,7 +1502,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 87"
   },
   {
     "name": "Gold Ornament",
@@ -1850,7 +1511,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 11"
   },
   {
     "name": "Hide-out Pattern",
@@ -1858,7 +1520,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 30"
   },
   {
     "name": "Jet Turbine",
@@ -1866,7 +1529,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 81"
   },
   {
     "name": "Local Peach Wine",
@@ -1874,7 +1538,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 2"
   },
   {
     "name": "Love Sick Meter",
@@ -1882,7 +1547,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 17"
   },
   {
     "name": "M.Carton's Painting",
@@ -1890,7 +1556,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 53"
   },
   {
     "name": "Mini-Tower",
@@ -1898,7 +1565,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 24"
   },
   {
     "name": "Model Train",
@@ -1906,7 +1574,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 54"
   },
   {
     "name": "Package",
@@ -1922,7 +1591,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 74"
   },
   {
     "name": "Peach Doll",
@@ -1930,7 +1600,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 3"
   },
   {
     "name": "Policeman's Club",
@@ -1938,7 +1609,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 12"
   },
   {
     "name": "Police Light",
@@ -1962,7 +1634,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 47"
   },
   {
     "name": "Rainbow Meter",
@@ -1970,7 +1643,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": "|Progressive Tires:11| AND |Progressive Engine:8| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Brakes:3| AND |Jet Turbine| AND |Wing Set|"
+    "requires": "|Progressive Tires:11| AND |Progressive Engine:8| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Brakes:3| AND |Jet Turbine| AND |Wing Set|",
+    "doubleUpStamp": "Stamp 90"
   },
   {
     "name": "Room with a View",
@@ -1978,7 +1652,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 20"
   },
   {
     "name": "Sky Pattern",
@@ -1986,7 +1661,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": "(|Progressive Tires:9| AND |Progressive Engine:7| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Steering:2| AND |Progressive Brakes:2|) OR (|Jet Turbine| AND |Progressive Tires:4| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:2|)"
+    "requires": "(|Progressive Tires:9| AND |Progressive Engine:7| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Steering:2| AND |Progressive Brakes:2|) OR (|Jet Turbine| AND |Progressive Tires:4| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:2|)",
+    "doubleUpStamp": "Stamp 88"
   },
   {
     "name": "Soccer Ball",
@@ -2002,7 +1678,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": "|Progressive Tires:1| AND |Progressive Steering:1|"
+    "requires": "|Progressive Tires:1| AND |Progressive Steering:1|",
+    "doubleUpStamp": "Stamp 38"
   },
   {
     "name": "Space Meter",
@@ -2010,7 +1687,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 44"
   },
   {
     "name": "Summer Pattern",
@@ -2018,7 +1696,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": "|Jet Turbine| OR (|Progressive Tires:6| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2|) OR (|Progressive Tires:1| AND |Progressive Engine:7| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2|)"
+    "requires": "|Jet Turbine| OR (|Progressive Tires:6| AND |Progressive Engine:5| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2|) OR (|Progressive Tires:1| AND |Progressive Engine:7| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2|)",
+    "doubleUpStamp": "Stamp 78"
   },
   {
     "name": "Toy Gun",
@@ -2026,7 +1705,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 25"
   },
   {
     "name": "Trumpet Horn",
@@ -2034,7 +1714,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 19"
   },
   {
     "name": "UFO Pattern",
@@ -2042,7 +1723,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 99"
   },
   {
     "name": "UnbaboDoll",
@@ -2050,7 +1732,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 73"
   },
   {
     "name": "Urban Pattern",
@@ -2058,7 +1741,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": "(|Progressive Engine:5| AND |Progressive Tires:4| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:1|) OR (|Progressive Engine:6| AND |Progressive Tires:2| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Steering:2| AND |Progressive Brakes:1|)"
+    "requires": "(|Progressive Engine:5| AND |Progressive Tires:4| AND |Progressive Chassis:2| AND |Progressive Transmission:2| AND |Progressive Steering:2| AND |Progressive Brakes:1|) OR (|Progressive Engine:6| AND |Progressive Tires:2| AND |Progressive Chassis:3| AND |Progressive Transmission:3| AND |Progressive Steering:2| AND |Progressive Brakes:1|)",
+    "doubleUpStamp": "Stamp 21"
   },
   {
     "name": "Venus Horn",
@@ -2066,7 +1750,8 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": []
+    "requires": [],
+    "doubleUpStamp": "Stamp 92"
   },
   {
     "name": "Voucher",

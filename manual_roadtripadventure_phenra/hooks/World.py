@@ -75,9 +75,24 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
         for location in location_table:
             if "category" in location:
                 if is_option_enabled(multiworld, player, "remove_double_up_stamps") and "Double-Up" in location["category"]:
+                    # Remove item
                     locationNamesToRemove.append(location["name"])
-                elif not is_option_enabled(multiworld, player, "remove_double_up_stamps") and "Combined" in location["category"]:
-                    locationNamesToRemove.append(location["name"])
+
+                    # Add name of item to combined stamp
+                    if "doubleUpStamp" in location:
+                        doubleUpStampName = location["doubleUpStamp"]
+
+                        # Find the stamp in location_table that matches the one listed in the 'doubleUpStamp' property
+                        stamp = [loc for loc in location_table if loc['name'] == doubleUpStampName]
+                        if len(stamp) == 0:
+                            raise Exception(f"Error in locations.json: Supplied doubleUpStamp for location f{location['name']} does not exist.")
+                        else:
+                            stamp = stamp[0]
+                        
+                        nameToAdd = location["name"]
+                        stamp['name'] += f" / {nameToAdd}"
+                    else:
+                        raise Exception (f"Error in locations.json: All locations in Double-Up category should have a 'doubleUpStamp' property. This one does not: {location['name']}")
         
     elif get_option_value(multiworld, player, "area_unlock_mode") == 1: # Stamp mode     
         for location in location_table:
