@@ -67,9 +67,8 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     # Use this hook to remove locations from the world
     locationNamesToRemove: list[str] = [] # List of location names
 
-    # If Decorations mode, and 'Remove Double Up Stamps' is enabled, remove any locations in the 'Double-Up' category.
-    # If Decorations mode, and 'Remove Double Up Stamps' is not enabled, remove any locations in the 'Combined' category.
-    # If Stamps mode, always remove all locations with category 'Combined'.
+    # If Decorations mode, and 'Remove Double Up Stamps' is enabled, remove any locations in the 'Double-Up' category, and
+    #     add its name to the location referenced by its 'doubleUpStamp' JSON property
 
     if get_option_value(multiworld, player, "area_unlock_mode") == 0: # Decorations mode      
         for location in location_table:
@@ -94,14 +93,6 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
                     else:
                         raise Exception (f"Error in locations.json: All locations in Double-Up category should have a 'doubleUpStamp' property. This one does not: {location['name']}")
         
-    elif get_option_value(multiworld, player, "area_unlock_mode") == 1: # Stamp mode     
-        for location in location_table:
-            if "category" in location and "Combined" in location["category"]:
-                locationNamesToRemove.append(location["name"])
-
-    else:
-        raise Exception("Area Unlock Mode is not Decorations or Stamps, please fix your YAML.")
-
     # Define location categories where we want to potentially force a good item to be placed
     raceCategories = ["Races - C-Rank", "Races - B-Rank", "Races - A-Rank", "Races - Other"]
     minigameCategories = ["Challenge"]
