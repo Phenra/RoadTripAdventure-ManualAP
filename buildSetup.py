@@ -1,18 +1,19 @@
 from cx_Freeze import setup
 
-# build_exe_options = {
-#     "include_files": [
-#         "addresses.json"
-#     ]
-# }
+build_exe_options = {
+    #"include_files": [
+    #    "addresses.json"
+    #]
+    "replace_paths": [("*", "")],
+}
 
 name = "RoadTripAdventure-InventoryEditor"
-version = "0.1.1"
+version = "0.1.2"
 
 setup(
     name=name,
     version=version,
     description="Live inventory editor for Road Trip Adventure, with additional functionality for manual Archipelago randomizer.",
-    # options={"build_exe": build_exe_options},
+    options={"build_exe": build_exe_options},
     executables=[{"script": "main.py", "base": "console", "target_name": f"{name}-{version}"}],
 )
