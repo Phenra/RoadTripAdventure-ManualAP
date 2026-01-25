@@ -303,7 +303,7 @@ def updateProgressiveUpgrade(data : dict, pine : Pine, cmd : str, item : str):
             "HG Wet Tires", 
             "Racing Tires", 
             "Big Tires", 
-            "HG Racing Tires"
+            "HG Racing Tires",
             "Devil Tires"
         ]
         newItem = progressiveTireOrder[itemIndex]
