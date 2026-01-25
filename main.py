@@ -466,6 +466,19 @@ def removeItemFromCurrentRun(itemStr : str):
     with open("current_run.json", "w") as file:
         json.dump(currentRun, file, indent=4)
 
+def fixPossibleItemNameIssues(item : str):
+    # Remove the " (Key)" string if included
+    item = item.replace(" (Key)", "")
+
+    # For "Normal Wheel" and "Mesh Wheel", the plural form should also be accepted
+    item = item.replace("Wheels", "Wheel")
+
+    # Correct "Hide-Out Pattern" to "Hide-out Pattern" 
+    # ('out' is lowercase in-game, but it's helpful for both to be accepted)
+    item = item.replace("Hide-Out", "Hide-out")
+
+    return item
+
 def main():
     with open("addresses.json", "r") as file:
         data = json.load(file)
@@ -554,8 +567,8 @@ def main():
                 print()
             elif(cmd == CMD_GET or cmd == CMD_REMOVE):               
                 if item:
-                    # Remove the " (Key)" string if included
-                    item = item.replace(" (Key)", "")
+                    # Check for a few potential problems with the item as-typed, and correct them.
+                    item = fixPossibleItemNameIssues(item)
                     
                     # If the item is a progressive upgrade...
                     if (item in data["progressiveUpgrades"]["names"]):

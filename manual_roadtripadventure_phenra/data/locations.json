@@ -230,7 +230,7 @@
     "category": [
       "Stamps"
     ],
-    "requires": []
+    "requires": "|Voucher|"
   },
   {
     "name": "Stamp 4",
@@ -1158,7 +1158,7 @@
   },
   {
     "name": "Coine Reward 1 (Body Q086)",
-    "region": "My City",
+    "region": "2 cities access",
     "category": [
       "Items Received"
     ],
@@ -1600,7 +1600,7 @@
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": [],
+    "requires": "|Voucher|",
     "doubleUpStamp": "Stamp 3"
   },
   {

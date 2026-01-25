@@ -179,8 +179,8 @@
       "inventoryAddress": "0x178041C",
       "shopAddress": "0x2DC584",
       "bitOffsets":{
-        "Normal Wheels": 0,
-        "Mesh Wheels": 1,
+        "Normal Wheel": 0,
+        "Mesh Wheel": 1,
         "Spoke 1": 2,
         "Spoke 2": 3,
         "Flush 1": 4,
