@@ -14,7 +14,7 @@
     "requires": []
   },
   "Fuji City": {
-    "connects_to": ["2 cities access"],
+    "connects_to": [],
     "requires": "|Gold Ornament (Key)| OR |Policeman's Club (Key)|",
     "stampModeRequires": "|Stamp:5|"
   },  
@@ -61,40 +61,5 @@
     "connects_to": [],
     "requires": "(|Christmas Tree (Key)| OR |Arctic Pattern (Key)|) AND (|Progressive Steering:1| AND |Progressive Brakes:1|) AND (|Mini-Tower (Key)| OR |Toy Gun (Key)|)",
     "stampModeRequires": "|Stamp:25|"
-  },
-  "2 cities access": {
-    "connects_to": ["3 cities access"],
-    "requires": "(|Gold Ornament (Key)| OR |Policeman's Club (Key)|)",
-    "stampModeRequires": "|Stamp:5|"
-  },
-  "3 cities access": {
-    "connects_to": ["4 cities access"],
-    "requires": "(|Mini-Tower (Key)| OR |Toy Gun (Key)|) AND (|Progressive Steering:1| AND |Progressive Brakes:1|)",
-    "stampModeRequires": "|Stamp:10|"
-  },
-  "4 cities access": {
-    "connects_to": ["5 cities access"],
-    "requires": "(|Model Train (Key)| OR |M.Carton's Painting (Key)|)",
-    "stampModeRequires": "|Stamp:15|"
-  },
-  "5 cities access": {
-    "connects_to": ["6 cities access"],
-    "requires": "(|Flower Pattern (Key)| OR |Sky Pattern (Key)|)",
-    "stampModeRequires": "|Stamp:20|"
-  },
-  "6 cities access": {
-    "connects_to": ["7 cities access"],
-    "requires": "(|Christmas Tree (Key)| OR |Arctic Pattern (Key)|)",
-    "stampModeRequires": "|Stamp:25|"
-  },
-  "7 cities access": {
-    "connects_to": ["8 cities access"],
-    "requires": "(|Papaya Ukulele (Key)| OR |UnbaboDoll (Key)|)",
-    "stampModeRequires": "|Stamp:30|"
-  },
-  "8 cities access": {
-    "connects_to": [],
-    "requires": "(|God's Rod (Key)| OR |Angel's Wings (Key)|)",
-    "stampModeRequires": "|Stamp:35|"
   }
 }

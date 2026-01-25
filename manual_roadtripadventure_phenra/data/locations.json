@@ -570,11 +570,11 @@
   },
   {
     "name": "Stamp 46",
-    "region": "7 cities access",
+    "region": "Fuji City",
     "category": [
       "Stamps"
     ],
-    "requires": []
+    "requires": "{cityAccessCount(7)}"
   },
   {
     "name": "Stamp 47",
@@ -1158,83 +1158,83 @@
   },
   {
     "name": "Coine Reward 1 (Body Q086)",
-    "region": "2 cities access",
+    "region": "Fuji City",
     "category": [
       "Items Received"
     ],
-    "requires": []
+    "requires": "{cityAccessCount(2)}"
   },
   {
     "name": "Coine Reward 2 (Body Q080)",
-    "region": "2 cities access",
+    "region": "Fuji City",
     "category": [
       "Items Received"
     ],
-    "requires": []
+    "requires": "{cityAccessCount(2)}"
   },
   {
     "name": "Coine Reward 3 (Body Q081)",
-    "region": "3 cities access",
+    "region": "Fuji City",
     "category": [
       "Items Received"
     ],
-    "requires": []
+    "requires": "{cityAccessCount(3)}"
   },
   {
     "name": "Coine Reward 4 (Body Q084)",
-    "region": "4 cities access",
+    "region": "Fuji City",
     "category": [
       "Items Received"
     ],
-    "requires": []
+    "requires": "{cityAccessCount(4)}"
   },
   {
     "name": "Coine Reward 5 (Big Tires)",
-    "region": "5 cities access",
+    "region": "Fuji City",
     "category": [
       "Items Received"
     ],
-    "requires": []
+    "requires": "{cityAccessCount(5)}"
   },
   {
     "name": "Coine Reward 6 (X3 Quick Steering)",
-    "region": "6 cities access",
+    "region": "Fuji City",
     "category": [
       "Items Received"
     ],
-    "requires": []
+    "requires": "{cityAccessCount(6)}"
   },
   {
     "name": "Coine Reward 7 (Hyper Transmission)",
-    "region": "7 cities access",
+    "region": "Fuji City",
     "category": [
       "Items Received"
     ],
-    "requires": []
+    "requires": "{cityAccessCount(7)}"
   },
   {
     "name": "Coine Reward 8 (Hyper Chassis)",
-    "region": "7 cities access",
+    "region": "Fuji City",
     "category": [
       "Items Received"
     ],
-    "requires": []
+    "requires": "{cityAccessCount(7)}"
   },
   {
     "name": "Coine Reward 9 (Metal Pad)",
-    "region": "7 cities access",
+    "region": "Fuji City",
     "category": [
       "Items Received"
     ],
-    "requires": []
+    "requires": "{cityAccessCount(7)}"
   },
   {
     "name": "Coine Reward 10 (Hyper MAX)",
-    "region": "7 cities access",
+    "region": "Fuji City",
     "category": [
       "Items Received", "Double-Up"
     ],
-    "requires": [],
+    "requires": "{cityAccessCount(7)}",
     "doubleUpStamp": "Stamp 46"
   },
   {
